@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang = "en" dir = "ltr">
+  <head>
+    <meta charset = "utf-8">
+    <!--Font Roboto-->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <title>Global Plastic Waste Trade</title>
+
+    <!--CSS Imports-->
+    <link rel = "stylesheet" href="css/style.css" />
+    <link href='https://api.mapbox.com/mapbox.js/v3.3.0/mapbox.css' rel='stylesheet' />
+    <link href = "https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.css" rel='stylesheet'/>
+    <!--<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+-->
+    <!--add mapbox, chart JS-->
+    <script src = "https://api.mapbox.com/mapbox.js/v3.3.0/mapbox.js"></script>
+    <script src = "https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js"></script>
+    <!--<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+-->
+    <!-- add library-->
+
+  </head>
+
+  <body>
+    <div class = "sidebar">
+        <img id="image1" src="/Users/yuqiliu/Documents/GitHub/JOYCELIU/final/img/cover.png" alt = ""> </img>
+        <img id="image1" src="/Users/yuqiliu/Documents/GitHub/JOYCELIU/final/img/cover.png" alt = ""> </img>
+
+      <div class = "sbhead">
+        <h1>Global Plastic Waste Trade</h1>
+      </div>
+
+
+      <div class = "sbbody">
+        <div id = "gallery">
+        </div>
+
+        <div class = "search">
+          <button id = "go">
+            <svg class="bi bi-search" width="3em" height="3em" color="#E5E5E5" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" d="M10.442 10.442a1 1 0 011.415 0l3.85 3.85a1 1 0 01-1.414 1.415l-3.85-3.85a1 1 0 010-1.415z" clip-rule="evenodd"/>
+              <path fill-rule="evenodd" d="M6.5 12a5.5 5.5 0 100-11 5.5 5.5 0 000 11zM13 6.5a6.5 6.5 0 11-13 0 6.5 6.5 0 0113 0z" clip-rule="evenodd"/>
+            </svg></button>
+        </div>
+          <button class = "switch">Search Country Instead</button>
+          <div class = "textbox">
+            <label for="sel"> </label><input type="number" id="textinput" placeholder="Any Year 1996-2017">
+        </div>
+
+        <div class = "highlight">
+          <div class = "section-1">
+            <div class = "section-1 hshead">Total Export Weight</div>
+            <div class = "section-1 number">386
+            </div>
+            <div class = "section-1 unit">Million <br> Tons</div>
+          </div>
+          <div class="section-2">
+            <div class = "section-2 hshead">Total Export Value</div>
+            <div class = "section-2 number">78</div>
+            <div class = "section-2 unit">Million <br> USD</div>
+          </div>
+          <div class = "section-3">
+            <div class = "section-3 hshead">#1 Exporter
+              <svg class="bi bi-info-circle" width="2em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" d="M8 15A7 7 0 108 1a7 7 0 000 14zm0 1A8 8 0 108 0a8 8 0 000 16z" clip-rule="evenodd"/>
+                <path d="M8.93 6.588l-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588z"/>
+                <circle cx="8" cy="4.5" r="1"/>
+              </svg>
+            </div>
+            <div class = "section-3 name">USA</div>
+          </div>
+          <div class = "section-4">
+            <div class = "section-4 hshead">#1 Importer
+              <svg class="bi bi-info-circle" width="2em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" d="M8 15A7 7 0 108 1a7 7 0 000 14zm0 1A8 8 0 108 0a8 8 0 000 16z" clip-rule="evenodd"/>
+                <path d="M8.93 6.588l-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588z"/>
+                <circle cx="8" cy="4.5" r="1"/>
+              </svg>
+            </div>
+            <div class = "section-4 name">China</div>
+          </div>
+        </div>
+
+        <div class = "chart"> Insert Chartjs Here
+        </div>
+
+        <div class = "datalist"> Insert Table Here
+          <button id = "countryfilter-E" type="button" >Exporter</button>
+          <button id = "countryfilter-I" type="button" >Importer</button>
+          <div class = "table"></div>
+        </div>
+
+      </div><!--sbbody closing-->
+
+
+      </div> <!--sidebar closing-->
+
+    <div id = "map">
+      <div id= "worldmap"></div>
+      <div class = "maphead">
+        <div class="info-container">
+          <svg class="bi bi-lightning" color="#E5E5E5" width="2em" height="2em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" d="M11.251.068a.5.5 0 01.227.58L9.677 6.5H13a.5.5 0 01.364.843l-8 8.5a.5.5 0 01-.842-.49L6.323 9.5H3a.5.5 0 01-.364-.843l8-8.5a.5.5 0 01.615-.09zM4.157 8.5H7a.5.5 0 01.478.647L6.11 13.59l5.732-6.09H9a.5.5 0 01-.478-.647L9.89 2.41 4.157 8.5z" clip-rule="evenodd"/>
+          </svg>
+          Insight
+       </div>
+      </div>
+      <div class="divbutton" id = "development"> Development Status
+        <button type="button" style="display: none;font-family: 'Roboto', sans-serif;">Developed</button>
+        <button type="button" style="display: none;font-family: 'Roboto', sans-serif;">Developing</button>
+      </div>
+      <div class="divbutton" id = "value"> Trade Value
+        <button type="button" style="display: none;font-family: 'Roboto', sans-serif;">ValueSlider</button>
+      </div>
+    </div>
+
+
+
+
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"></script>
+
+    <script>
+      <!-- button effect -->
+      $(document).ready(function () {
+      $(document).on('mouseenter', '.divbutton', function () {
+          $(this).find(":button").show();
+      }).on('mouseleave', '.divbutton', function () {
+          $(this).find(":button").hide();
+      });
+  });
+
+    </script>
+
+      <!-- Javasc Imports-->
+        <script src="js/underscore.js"></script>
+        <script src="js/jquery-2.2.0.js"></script>
+        <script src="js/main.js"></script>
+  </body>
+</html>

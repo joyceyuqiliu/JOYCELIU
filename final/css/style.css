@@ -1,0 +1,346 @@
+.sidebar{
+  position: absolute;
+  width:33%;
+  min-width:444px;
+  height:100%;
+  min-height: 768px;
+  left:0px;
+  top:0px;
+  bottom:0px;
+  background:rgba(74,11,42,0.95);
+  overflow:hidden;
+}
+
+.sbhead{
+position: absolute;
+width:100%;
+min-width:444px;
+height: 68px;
+left: 0px;
+top: 0px;
+background: RGBA(11,42,74,0.9);
+}
+
+
+/* h1: Global Plastic Waste Trade */
+h1{
+position: absolute;
+width: 444px;
+height: 40px;
+left: 0px;
+font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 28px;
+/* or 57% */
+display: inline-block;
+align-items: center;
+text-align: center;
+color: #E5E5E5;
+}
+
+/* class: sbbody */
+.sbbody{
+position: absolute;
+width: 100%;
+min-width: 444px;
+height: 699px;
+left: 0px;
+top: 68px;
+font-family: 'Roboto', sans-serif;
+}
+
+img {
+  opacity:0.15;
+  padding:0;
+  border-radius:0;
+}
+  /* Gallery */
+#gallery{
+  position: absolute;
+  visibility: hidden;
+  width: 444px;
+  height: 552px;
+  left: 0px;
+  top: 133px;
+}
+
+
+  /* id =search */
+.search{
+  position: absolute;
+  width: 444px;
+  height: 130px;
+  left: 0px;
+  top: 0px;
+  background: #0B2A4A;
+  font-family: 'Roboto', sans-serif;
+}
+    /* id= go */
+  #go {
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    left: 346px;
+    top: 24px;
+    background: #0B2A4A;
+    border-color: #0B2A4A;
+    cursor: pointer;
+  }
+    /* id=switch */
+    .switch{
+    position: absolute;
+    width: 270px;
+    height: 30px;
+    left: 42px;
+    top: 88px;
+    text-decoration: underline;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: Regular;
+    color: #E5E5E5;
+    background:#0B2A4A;
+    border-color: #0B2A4A;
+    cursor:pointer;
+  }
+
+    /* class = textbox */
+    .textbox{
+    position: absolute;
+    width: 270px;
+    height: 64px;
+    left: 42px;
+    top: 17px;
+  }
+
+  #textinput{
+  position: absolute;
+  width: 270px;
+  height: 64px;
+  left: 0px;
+  top: 0px;
+  background: #E5E5E5;
+  border: 2px solid #E5E5E5;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  font-size: 26px;
+  text-align: center;
+  display: inline-block;
+  }
+
+
+
+  /* class =highlight */
+  .highlight{
+  position: absolute;
+  width: 400px;
+  height: 180px;
+  left: 21px;
+  top: 131px;
+  font-family: 'Roboto', sans-serif;
+  color: #E5E5E5;
+  align: center;
+  text-align:left;
+}
+
+    /* class = section-4 */
+    .section-4{
+    position: absolute;
+    width: 186px;
+    height: 90px;
+    left: 214px;
+    top: 91px;
+    margin-top:20px;
+    margin-bottom:20px;
+  }
+
+   /* class = section-3 */
+   .section-3{
+    position: absolute;
+    width: 186px;
+    height: 84px;
+    left: 28px;
+    top: 90px;
+    margin-top:20px;
+    margin-bottom:20px;
+  }
+
+   /* class = section-2 */
+   .section-2{
+   position: absolute;
+   width: 186px;
+   height: 90px;
+   left: 214px;
+   top: 0px;
+   margin-top:15px;
+   margin-bottom:20px;
+ }
+
+  /* class = section-1 */
+  .section-1{
+  position: absolute;
+  width: 186px;
+  height: 90px;
+  left: 27px;
+  top: -1px;
+  margin-top:15px;
+  margin-bottom:20px;
+}
+    /* class = hshead */
+    .hshead{
+    position: absolute;
+    width: 200px;
+    height: 30px;
+    left: 1px;
+    top: 2px;
+    font-size:14px;
+  }
+    /* class = number */
+    .number{
+    position: absolute;
+    width: 100px;
+    height: 44px;
+    left: 1px;
+    top: 32px;
+    font-size:40px;
+    font-weight:medium;
+  }
+    /* class = unit */
+    .unit{
+    position: absolute;
+    width: 80px;
+    height: 44px;
+    left: 101px;
+    top: 32px;
+    font-size:16px;
+  }
+    /* class = name */
+    .name{
+    position: absolute;
+    width: 180px;
+    height: 44px;
+    left: 1px;
+    top: 32px;
+    font-size:40px;
+    font-weight:medium;
+  }
+
+
+/* class = chart */
+.chart{
+position: absolute;
+width: 400px;
+height: 180px;
+left: 21px;
+top: 360px;
+font-family: 'Roboto', sans-serif;
+color:  #E5E5E5;
+}
+
+/* class = datalist */
+.datalist{
+position: absolute;
+width: 400px;
+height: 190px;
+left: 22px;
+top: 550px;
+font-family: 'Roboto', sans-serif;
+color: #E5E5E5;
+}
+
+#countryfilter-I{
+  position:absolute;
+  width: 123px;
+  height: 32px;
+  left: 159px;
+  top: 20px;
+  border:  #E5E5E5;
+  cursor: pointer;
+}
+#countryfilter-E{
+  position:absolute;
+  width: 123px;
+  height: 32px;
+  left: 28px;
+  top: 20px;
+  border:  #E5E5E5;
+  cursor: pointer;
+}
+
+/* id=worldmap */
+#map{
+position: absolute;
+width:67%;
+min-width: 922px;
+height:100%;
+min-height: 768px;
+left:444px;
+top: 0px;
+right:0px;
+background: #C4C4C4;
+font-family: 'Roboto', sans-serif;
+}
+
+#worldmap{
+  position: absolute;
+  width:100%;
+  min-width: 922px;
+  height:100%;
+  min-height: 768px;
+  top: 0px;
+  right:0px;
+}
+
+.info-container{
+  position: absolute;
+  width: 100%;
+  height: 68px;
+  right: 8%;
+  color: #E5E5E5;
+  font-family: 'Roboto', sans-serif;
+  align-items: center;
+  display:flex;
+  justify-content: flex-end;
+}
+
+/* class=maphead */
+.maphead{
+position: absolute;
+width: 100%;
+min-width: 922px;
+height: 68px;
+left: 0px;
+top: 0px;
+background: rgba(11, 42, 74, 0.8);
+}
+
+.divbutton {
+    height: 100px;
+    background: rgba(11, 42, 74, 0.8);
+    text-align: center;
+    align:middle;
+    color: #E5E5E5;
+}
+
+/* id=development */
+#development{
+position: absolute;
+padding: 10px;
+width: 151px;
+height: 40px;
+left: 69px;
+top: 75%;
+}
+
+/* id=value */
+#value{
+position: absolute;
+padding: 10px;
+width: 151px;
+height: 40px;
+left: 69px;
+top: 85%;
+}
+
+button {}
