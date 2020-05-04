@@ -1,0 +1,178 @@
+[
+  {
+    "": 1,
+    "Year": 1996,
+    "WorldexpValue": 499.33,
+    "WorldimpValue": 432.65,
+    "BiggestExporter": "United States of America",
+    "BiggestImporter": "United States of America"
+  },
+  {
+    "": 2,
+    "Year": 1997,
+    "WorldexpValue": 484.41,
+    "WorldimpValue": 484.47,
+    "BiggestExporter": "United States of America",
+    "BiggestImporter": "United States of America"
+  },
+  {
+    "": 3,
+    "Year": 1998,
+    "WorldexpValue": 578.63,
+    "WorldimpValue": 508.78,
+    "BiggestExporter": "Mexico",
+    "BiggestImporter": "United States of America"
+  },
+  {
+    "": 4,
+    "Year": 1999,
+    "WorldexpValue": 698.24,
+    "WorldimpValue": 666.82,
+    "BiggestExporter": "Mexico",
+    "BiggestImporter": "China"
+  },
+  {
+    "": 5,
+    "Year": 2000,
+    "WorldexpValue": 901.51,
+    "WorldimpValue": 927.76,
+    "BiggestExporter": "Mexico",
+    "BiggestImporter": "China"
+  },
+  {
+    "": 6,
+    "Year": 2001,
+    "WorldexpValue": 974.81,
+    "WorldimpValue": 947.27,
+    "BiggestExporter": "United States of America",
+    "BiggestImporter": "China"
+  },
+  {
+    "": 7,
+    "Year": 2002,
+    "WorldexpValue": 1000.75,
+    "WorldimpValue": 974.16,
+    "BiggestExporter": "United States of America",
+    "BiggestImporter": "China"
+  },
+  {
+    "": 8,
+    "Year": 2003,
+    "WorldexpValue": 1244.69,
+    "WorldimpValue": 1260.15,
+    "BiggestExporter": "United States of America",
+    "BiggestImporter": "China"
+  },
+  {
+    "": 9,
+    "Year": 2004,
+    "WorldexpValue": 1776.77,
+    "WorldimpValue": 1993.93,
+    "BiggestExporter": "United States of America",
+    "BiggestImporter": "China"
+  },
+  {
+    "": 10,
+    "Year": 2005,
+    "WorldexpValue": 2390.24,
+    "WorldimpValue": 2804.43,
+    "BiggestExporter": "United States of America",
+    "BiggestImporter": "China"
+  },
+  {
+    "": 11,
+    "Year": 2006,
+    "WorldexpValue": 3001.51,
+    "WorldimpValue": 3630.36,
+    "BiggestExporter": "United States of America",
+    "BiggestImporter": "China"
+  },
+  {
+    "": 12,
+    "Year": 2007,
+    "WorldexpValue": 3766.89,
+    "WorldimpValue": 4468.03,
+    "BiggestExporter": "United States of America",
+    "BiggestImporter": "China"
+  },
+  {
+    "": 13,
+    "Year": 2008,
+    "WorldexpValue": 4265.01,
+    "WorldimpValue": 5528.55,
+    "BiggestExporter": "United States of America",
+    "BiggestImporter": "China"
+  },
+  {
+    "": 14,
+    "Year": 2009,
+    "WorldexpValue": 3633.59,
+    "WorldimpValue": 4438.21,
+    "BiggestExporter": "United States of America",
+    "BiggestImporter": "China"
+  },
+  {
+    "": 15,
+    "Year": 2010,
+    "WorldexpValue": 4559.01,
+    "WorldimpValue": 6342.22,
+    "BiggestExporter": "United States of America",
+    "BiggestImporter": "China"
+  },
+  {
+    "": 16,
+    "Year": 2011,
+    "WorldexpValue": 5551.29,
+    "WorldimpValue": 7920.75,
+    "BiggestExporter": "United States of America",
+    "BiggestImporter": "China"
+  },
+  {
+    "": 17,
+    "Year": 2012,
+    "WorldexpValue": 5501.87,
+    "WorldimpValue": 8120.16,
+    "BiggestExporter": "United States of America",
+    "BiggestImporter": "China"
+  },
+  {
+    "": 18,
+    "Year": 2013,
+    "WorldexpValue": 5304.87,
+    "WorldimpValue": 7977.96,
+    "BiggestExporter": "United States of America",
+    "BiggestImporter": "China"
+  },
+  {
+    "": 19,
+    "Year": 2014,
+    "WorldexpValue": 5417.36,
+    "WorldimpValue": 8030.45,
+    "BiggestExporter": "United States of America",
+    "BiggestImporter": "China"
+  },
+  {
+    "": 20,
+    "Year": 2015,
+    "WorldexpValue": 4260.1,
+    "WorldimpValue": 5762.62,
+    "BiggestExporter": "United States of America",
+    "BiggestImporter": "China"
+  },
+  {
+    "": 21,
+    "Year": 2016,
+    "WorldexpValue": 3733.68,
+    "WorldimpValue": 4951.41,
+    "BiggestExporter": "United States of America",
+    "BiggestImporter": "China"
+  },
+  {
+    "": 22,
+    "Year": 2017,
+    "WorldexpValue": 3381.74,
+    "WorldimpValue": 4816.98,
+    "BiggestExporter": "United States of America",
+    "BiggestImporter": "China"
+  }
+]
