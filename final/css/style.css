@@ -226,7 +226,6 @@ img {
     font-weight:medium;
   }
 
-
 /* class = chart */
 .chart{
 position: absolute;
@@ -235,7 +234,7 @@ height: 180px;
 left: 21px;
 top: 360px;
 font-family: 'Roboto', sans-serif;
-color:  #E5E5E5;
+color: 'red';
 }
 
 /* class = datalist */

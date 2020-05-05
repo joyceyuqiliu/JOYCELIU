@@ -2,14 +2,17 @@ var data = $.ajax({
   url:"https://raw.githubusercontent.com/joyceyuqiliu/JOYCELIU/master/final/dataset/YearEIandBig.json",
   async:false,
   dataType:'json'
-}).responseJSON
+}).responseJSON;
 
 // DISPLAY RESULT IN HIGHLIGHT SECTION 1
-myFunction(data)
+myFunction(data);
 
 
 function myFunction(arr){
-  var out = "";
+  var out1 = "";
+  var out2 = "";
+  var out3 = "";
+  var out4 = "";
   for ( i = 0; i < arr.length; i++){
     if(document.getElementById("input").value == "1996"){
       out1 = arr[0].WorldexpValue;
@@ -121,7 +124,7 @@ function myFunction(arr){
       out2 = arr[21].WorldimpValue;
       out3 = arr[21].BiggestExporter;
       out4 = arr[21].BiggestImporter;
-    }};
+    }}
   //  if (arr[i].Year = document.getElementById("input").value){
   //  out += arr[i].WorldexpValue;}
   //}

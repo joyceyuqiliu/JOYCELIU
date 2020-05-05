@@ -18,7 +18,7 @@
     <!--<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 -->
     <!---add data-->
-    <script src="sidebarapp.js"></script>
+    <!--<script src="sidebarapp.js"></script> -->
     <!-- add library-->
 
   </head>
@@ -53,13 +53,13 @@
 
         <div class = "highlight">
           <div class = "section-1">
-            <div class = "section-1 hshead">Total Export Weight</div>
+            <div class = "section-1 hshead">Total Export Value</div>
             <div class = "section-1 number"><span id = "s1n"></span>
             </div>
-            <div class = "section-1 unit">Million <br> Kg</div>
+            <div class = "section-1 unit">Million <br> USD</div>
           </div>
           <div class="section-2">
-            <div class = "section-2 hshead">Total Export Value</div>
+            <div class = "section-2 hshead">Total Import Value</div>
             <div class = "section-2 number"><span id = "s2n"></span></div>
             <div class = "section-2 unit">Million <br> USD</div>
           </div>
@@ -86,10 +86,10 @@
         </div>
 
         <div class = "chart">
-          <canvass id="myChart"></canvas> Insert Chartjs Here
+          <canvas id="myChart" style= "display: block width: 300px height:150px" ></canvas>
         </div>
 
-        <div class = "datalist"> Insert Table Here
+        <div class = "datalist">
           <button id = "countryfilter-E" type="button" >Exporter</button>
           <button id = "countryfilter-I" type="button" >Importer</button>
           <div class = "table"></div>
