@@ -201,9 +201,9 @@ img {
     position: absolute;
     width: 100px;
     height: 44px;
-    left: 1px;
-    top: 32px;
-    font-size:40px;
+    left: 0px;
+    top: 35px;
+    font-size:36px;
     font-weight:medium;
   }
     /* class = unit */
@@ -211,9 +211,9 @@ img {
     position: absolute;
     width: 80px;
     height: 44px;
-    left: 101px;
-    top: 32px;
-    font-size:16px;
+    left: 115px;
+    top: 40px;
+    font-size:12px;
   }
     /* class = name */
     .name{
@@ -222,7 +222,7 @@ img {
     height: 44px;
     left: 1px;
     top: 32px;
-    font-size:40px;
+    font-size:20px;
     font-weight:medium;
   }
 
