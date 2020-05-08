@@ -6,3 +6,307 @@ https://icons.getbootstrap.com/
 
 hex to rgba:
 https://cssgenerator.org/rgba-and-hex-color-generator.html
+
+cssv to json conversion:
+https://csvjson.com/csv2json
+
+all data api:
+YearEIandBig: https://raw.githubusercontent.com/joyceyuqiliu/JOYCELIU/master/final/dataset/YearEIandBig.csv
+CountryEI_H: https://raw.githubusercontent.com/joyceyuqiliu/JOYCELIU/master/final/dataset/CountryEI_H.csv
+YearEI_AllDetail: https://raw.githubusercontent.com/joyceyuqiliu/JOYCELIU/master/final/dataset/YearEI_AllDetail.csv
+Imp_AllYearDetail: https://raw.githubusercontent.com/joyceyuqiliu/JOYCELIU/master/final/dataset/Imp_AllYearDetail.csv
+Exp_AllYearDetail: https://raw.githubusercontent.com/joyceyuqiliu/JOYCELIU/master/final/dataset/Exp_AllYearDetail.csv
+
+
+tried to find data within arrays
+function findWeight (data,b){
+  var newArray = [];
+  var bArray = Array.entries(data);
+  bArray.forEach(object =>{
+    if(Array[1].includes(b)){
+      newArray.push(Array[2]);
+    }
+  });
+  return newArray
+}
+var data = "https://raw.githubusercontent.com/joyceyuqiliu/JOYCELIU/master/final/dataset/YearEIandBig.csv"
+console.log(findWeight(data,"1996"))
+
+
+
+
+
+// search in the same position of all arrays, return the value that matches textinput
+function checkallData (data){
+  for (i = 1; i < allData.length; i++){
+    var input = document.getElementById("input");
+    if (input = allData[i][1][0]){
+    return data = "1996";
+  }
+}}
+ //for (i = 1; i < allData.length; i++){
+//  var year = allData[i][1][0];
+//  var export = allData[i][2][0];
+//  if (year = "input"){
+
+//if (allData[i][1][0]= getElementById("input").value){
+//  return data = document.allData[i][2][0]);}
+//  else{console.log("Wrong")}
+//}}
+//}};
+
+function myFunction() {
+  document.getElementById("s1n").innerHTML = allData.find(checkallData);
+}
+
+//a search function using the jQuery inArray method
+// - matches the data position in the array and returns a new array of matched data
+//function searchData(data, search){
+//  return $.grep(data, function(line,i){
+//    return line.join('|').match(search);
+//  });
+//}
+
+
+//  var input, filter, i, td, txtValue;
+//  input = document.getElementByID("textinput");
+//  filter = input.value.toUpperCase();
+//  for (i=0; i<byYear.length; i++){
+//    if (input = byYear)
+//}
+
+
+
+
+
+//process the data into an array
+function processData(allText) {
+  var allTextLines = allText.split(/\r\m|\n/);
+  var headers = allTextLines[0].split(',');
+  var lines = [];
+  for(i = 1; i< allTextLines.length; i++){
+    var data = allTextLines[i].split(',');
+    if(data.length == headers.length){
+      lines.push($.map(data, function(field, j){
+        return headers[j] + ':' + field;
+      }));
+    }
+  }
+return lines;}
+
+
+
+
+
+
+// search in the same position of all arrays, return the value that matches textinput
+function checkallData (result){
+  for (i = 1; i < allData.length; i++){
+    var year = allData[i][1].Year;
+    if (year = getElementById("input").value){
+    return result = allData[2].WorldexpValue;
+    document.getElementById("input").result;}
+    else{
+      return result = "Null";}
+  }
+  }
+
+function myFunction() {
+  document.getElementById("s1n").innerHTML =
+  allData.find(checkallData);
+}
+
+
+
+
+for (i = 1; i < allData.length; i++){
+var year = allData[i][1].Year;
+var element = document.getElementById("input");
+if (year = element.value){
+return result = allData[i][2].WorldexpValue;}
+else{
+  console.log("Null")}
+}}
+
+
+
+// this has worked for processing csvjsonfunction processData(allText){
+  var allTextLines = allText.split(/\r\n|\n/);
+  var headers = allTextLines[0].toString()
+  .replace(/['"]+/g, '').split(',');
+  var lines = [];
+  for (i = 1; i< allTextLines.length; i++){
+    var data = allTextLines[i].toString()
+    .replace(/['"]+/g, '').split(',');
+    if (data.length == headers.length){
+    //  for (m=0; m<headers.length; m++){
+      //  headers[m] = headers[m].replace(/["]+/g, '');
+        lines.push($.map(data, function(field,j){
+          return headers[j]+":"+ field;
+        }));
+      }
+    }
+  return JSON.stringify(lines).replace(/"/g,'');}
+
+
+
+
+
+
+
+  function checkallData (result){
+    for (i=1; i<YearEIandBig.length; i++){
+      var year = YearEIandBig[i][1].Year;
+      if (year = getElementById("input").value){
+      return result = YearEIandBig[2].WorldexpValue;
+      document.getElementById("input").result;}
+    }
+  }
+
+  function myFunction() {
+    document.getElementById("s1n").innerHTML =
+    YearEIandBig.find(checkallData);
+  }
+
+
+
+// code from web that try to control the  legend divbutton//            onClick: function(e, legendItem){
+  //            var index = legendItem.datasetIndex;
+    //          var ci = this.chart;
+      //        var alreadyHidden = (ci.getDatasetMeta(index).hidden == null)?
+        //          false: ci.getDatasetMeta(index).hidden;
+          //    ci.data.datasets.forEach(function(e,i){
+            //    var meta = ci.getDatasetMeta(i);
+              //  if (i!== index){
+                //  if(!alreadyHidden){
+                  //  meta.hidden = meta.hidden === null ? !meta.hidden: null;}
+                    //else if(meta.hidden === null){
+                      //meta.hidden = true;}}
+                      //else if (i === index) {
+                        //meta.hidden = null;
+                      //}});
+                        //ci.update();}
+        //  },
+
+
+
+
+//the style for up and down button
+.sortable .table-sort:before {
+    position: absolute;
+    content: '';
+    top: 36px;
+    left: 25px;
+    border-bottom: 3px solid currentColor;
+    border-left: 3px solid transparent;
+    border-right: 3px solid transparent;
+  }
+
+.sortable .table-sort:after {
+      position: absolute;
+      content: '';
+      bottom: 56px;
+      left: 25px;
+      border-top: 3px solid currentColor;
+      border-left: 3px solid transparent;
+      border-right: 3px solid transparent;
+  }
+
+
+
+
+  // table sorting function (but too many rows, slowdowned the server)
+  function sortTable(n) {
+    var table, rows, switching, i, x, y,
+    shouldSwitch, direction,
+    switchcount = 0;
+    table = document.getElementById("myTable");
+    switching = true;
+    direction = "asc"; //sort direction to ascending
+    while (switching) {
+      switching = false; // no switching initially
+      rows = table.rows;
+      //loop through tbody
+      for (i=1; i< rows.length; i++) {
+        shouldSwitch = false;
+        x = rows[i].getElementsByTagName("TD")[n];
+        y = rows[i + 1].getElementsByTagName("TD")[n];
+        //if x and y should switch places
+        if (direction == "asc") {
+          if (x.innerHTML.toLowerCase() > y.innerHTML.toLowerCase()){
+          shouldSwitch = true;
+          break;
+        }
+      } else if (direction == "desc") {
+          if (x.innerHTML.toLowerCase() < y.innerHTML.toLowerCase()) {
+            shouldSwitch = true;
+            break;
+          }
+        }
+      }
+      if (shouldSwitch) {
+        //if marked as "Switch", make the switch, mark it as done;
+        rows[i].parentNode.insertBefore(rows[i + 1],
+        rows[i]);
+        switching = true;
+        //when a switch is done, increase the investigation by 1;
+        switchcount ++;
+      } else {
+        //if nothing has been done, and direction = asc,
+        //set direction to desc, run the while loop again
+        if (switchcount == 0 && direction =="asc") {
+          direction = "desc";
+          switching = true;
+        }
+      }
+    }
+  }
+
+
+
+
+  // the myFunctionTableI
+  function myFunctionTableI(){
+    var x = document.getElementById("E-place-table");
+    var y = document.getElementById("I-place-table");
+    if ((x.style.display === "none") && (y.style.display ==="none")) {
+      x.style.display = "none";
+      y.style.display ="block";
+    } else if ((x.style.display === "block") && (y.style.display ==="none")){
+      x.style.display = "none";
+      y.style.display ="block";
+    } else {
+      x.style.display = "none";
+      y.style.display ="block";}
+    }
+
+
+
+
+    //sortable function
+    sortable.onclick = function(e){
+      if (e.target.tagName != 'th') return;
+      var th = e.target;
+      sortGrid(th.cellIndex, th.dataset.type);
+    };
+
+    function sortGrid(colNum, type) {
+      var tbody = sortable.querySelector('tbody');
+      var rowsArray = Array.from(tbody.rows);
+      //compare rows
+      var compare;
+      switch (type) {
+        case 'number':
+          compare = function (rowA, rowB) {
+            return rowA.cells[colNum].innerHTML - rowB.cells[colNum].innerHTML;
+        };
+          break;
+        case 'string':
+          compare = function (rowA, rowB) {
+            return rowA.cells[colNum].innerHTML > rowB.cells[colNum].innerHTML ? 1: -1;
+        };
+          break;
+      }
+      rowsArray.sort(compare);
+      tbody.concat(...rowsArray);///ES6 wasn't compatible with all
+    }

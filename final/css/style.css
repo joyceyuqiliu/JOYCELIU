@@ -30,7 +30,7 @@ height: 40px;
 left: 0px;
 font-family: 'Roboto', sans-serif;
 font-style: normal;
-font-weight: bold;
+font-weight: 700;
 font-size: 28px;
 /* or 57% */
 display: inline-block;
@@ -134,15 +134,17 @@ img {
   /* class =highlight */
   .highlight{
   position: absolute;
-  width: 400px;
-  height: 180px;
-  left: 21px;
-  top: 131px;
+  width: 406px;
+  height: 215px;
+  left: 20px;
+  top: 130px;
   font-family: 'Roboto', sans-serif;
   color: #E5E5E5;
   align: center;
   text-align:left;
+  background-color: rgba(4, 15, 27, 0.45);
 }
+
 
     /* class = section-4 */
     .section-4{
@@ -151,7 +153,7 @@ img {
     height: 90px;
     left: 214px;
     top: 91px;
-    margin-top:20px;
+    margin-top:12px;
     margin-bottom:20px;
   }
 
@@ -162,7 +164,7 @@ img {
     height: 84px;
     left: 28px;
     top: 90px;
-    margin-top:20px;
+    margin-top:12px;
     margin-bottom:20px;
   }
 
@@ -173,7 +175,7 @@ img {
    height: 90px;
    left: 214px;
    top: 0px;
-   margin-top:15px;
+   margin-top:12px;
    margin-bottom:20px;
  }
 
@@ -183,8 +185,8 @@ img {
   width: 186px;
   height: 90px;
   left: 27px;
-  top: -1px;
-  margin-top:15px;
+  top: 0px;
+  margin-top:12px;
   margin-bottom:20px;
 }
     /* class = hshead */
@@ -194,7 +196,8 @@ img {
     height: 30px;
     left: 1px;
     top: 2px;
-    font-size:14px;
+    font-size:13px;
+    font-weight:100;
   }
     /* class = number */
     .number{
@@ -202,39 +205,39 @@ img {
     width: 100px;
     height: 44px;
     left: 0px;
-    top: 35px;
-    font-size:36px;
-    font-weight:medium;
+    top: 30px;
+    font-size:35px;
+    font-weight:500;
   }
     /* class = unit */
     .unit{
     position: absolute;
     width: 80px;
     height: 44px;
-    left: 115px;
-    top: 40px;
+    left: 130px;
+    top: 34px;
     font-size:12px;
+    font-weight:100;
   }
     /* class = name */
     .name{
     position: absolute;
     width: 180px;
     height: 44px;
-    left: 1px;
-    top: 32px;
-    font-size:20px;
-    font-weight:medium;
+    left: 0px;
+    top: 30px;
+    font-size:22px;
+    font-weight:500;
   }
 
 /* class = chart */
 .chart{
 position: absolute;
 width: 400px;
-height: 180px;
-left: 21px;
-top: 360px;
+height: 200px;
+left: 20px;
+top: 350px;
 font-family: 'Roboto', sans-serif;
-color: 'red';
 }
 
 /* class = datalist */
@@ -243,27 +246,83 @@ position: absolute;
 width: 400px;
 height: 190px;
 left: 22px;
-top: 550px;
+top: 533px;
 font-family: 'Roboto', sans-serif;
 color: #E5E5E5;
+font-size: 10px;
+}
+
+.place-table{
+  position: absolute;
+  max-height: 100px;
+  top: 40px;
+  overflow: scroll;
+}
+
+p{
+  position: absolute;
+  max-height: 150px;
+  top: 40px;
+  overflow: scroll;
+}
+
+
+thead{
+  font-size: 11px;
+  font-weight: 500;
+  color: #000000;
+}
+
+th, td{
+  display: table-cell;
+  padding: 2px;
+}
+
+th{
+  cursor: pointer;
+}
+
+th:hover {
+  background: #E5E5E5;
+}
+
+
+.style0{
+  text-align: center;
+}
+
+.active{
+  background-color: #E5E5E5;
 }
 
 #countryfilter-I{
-  position:absolute;
-  width: 123px;
-  height: 32px;
-  left: 159px;
-  top: 20px;
-  border:  #E5E5E5;
+  position: absolute;
+  width: 125px;
+  height: 20px;
+  left: 178px;
+  top: 12px;
+  border-color: #E5E5E5;
+  border-radius: 5px;
+  border-width: 2px;
+  background-color: #FFDBC9;
   cursor: pointer;
 }
+#countryfilter-I:hover {
+  background: #E5E5E5;
+}
+#countryfilter-E:hover {
+  background: #E5E5E5;
+}
 #countryfilter-E{
-  position:absolute;
-  width: 123px;
-  height: 32px;
-  left: 28px;
-  top: 20px;
-  border:  #E5E5E5;
+  position: absolute;
+  width: 125px;
+  height: 20px;
+  left: 6px;
+  top: 12px;
+  border-color: #E5E5E5;
+  border-radius: 5px;
+  border-width: 2px;
+  background-color: #A7C6FA;
   cursor: pointer;
 }
 
@@ -289,6 +348,11 @@ font-family: 'Roboto', sans-serif;
   min-height: 768px;
   top: 0px;
   right:0px;
+}
+
+.mapboxgl-popup {
+max-width: 400px;
+font: 12px/20px 'Helvetica Neue', Arial, Helvetica, sans-serif;
 }
 
 .info-container{
@@ -322,6 +386,7 @@ background: rgba(11, 42, 74, 0.8);
     color: #E5E5E5;
 }
 
+
 /* id=development */
 #development{
 position: absolute;
@@ -342,4 +407,46 @@ left: 69px;
 top: 85%;
 }
 
-button {}
+
+/*mapbox toggle*/
+  #menu {
+background: #fff;
+position: absolute;
+z-index: 1;
+top: 10px;
+right: 10px;
+border-radius: 3px;
+width: 120px;
+border: 1px solid rgba(0, 0, 0, 0.4);
+font-family: 'Open Sans', sans-serif;
+}
+
+#menu a {
+font-size: 13px;
+color: #404040;
+display: block;
+margin: 0;
+padding: 0;
+padding: 10px;
+text-decoration: none;
+border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+text-align: center;
+}
+
+#menu a:last-child {
+border: none;
+}
+
+#menu a:hover {
+background-color: #f8f8f8;
+color: #404040;
+}
+
+#menu a.active {
+background-color: #3887be;
+color: #ffffff;
+}
+
+#menu a.active:hover {
+background: #3074a4;
+}

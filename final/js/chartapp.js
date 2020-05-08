@@ -1,6 +1,8 @@
 // defaults for all charts
 Chart.defaults.global.responsive = true;
 Chart.defaults.global.defaultFontColor = '#E5E5E5';
+Chart.defaults.global.defaultFontFamily = 'Roboto';
+Chart.defaults.global.defaultFontSize = 11;
 Chart.defaults.global.tooltips.mode = 'label';
 //Chart.defaults.global.tooltips.backgroundColor = '#888';
 //Chart.defaults.global.tooltips.titleColor = '#888';
@@ -16,15 +18,15 @@ var data = {
       label: "Export",
       fill: false,
       fontColor: "#E5E5E5",
-      backgroundColor: '#BC2946',
-      borderColor: '#BC2946',
+      backgroundColor: '#A7C6FA',
+      borderColor: '#A7C6FA',
       data: [499.33,484.41,578.63,698.24,901.51,974.81,1000.75,1244.69,1776.77,2390.24,3001.51,3766.89,4265.01,3633.59,4559.01,5551.29,5501.87,5304.87,5417.36,4260.1,3733.68,3381.74]
     },{
-      label: "Import",
+      label:"Import",
       lineTension: 0.2,
       fill: false,
-      backgroundColor: '#BCA4D9',
-      borderColor: '#BCA4D9',
+      backgroundColor: '#FFDBC9',
+      borderColor: '#FFDBC9',
       data: [432.65,484.47,508.78,666.82,927.76,947.27,974.16,1260.15,1993.93,2804.43,3630.36,4468.03,5528.55,4438.21,6342.22,7920.75,8120.16,7977.96,8030.45,5762.62,4951.41,4816.98]
     }]
 }
@@ -39,46 +41,48 @@ var ctx = $("#myChart");
         type: 'line',
         data: data,
         options: {
-          gridLines: {
-            display: false,
-          },
+          gridLines: false,
           tooltips: {
             mode: 'single',
           },
           legend: {
             labels: {
               boxWidth: 123,
-              padding: 8,
+              padding: 10,
             },
             position: 'bottom',
             align: 'start'},
           scales: {
             xAxes: [{
               gridLines:{
-                drawBorder: false,
+                drawBorder: true,
               },
+              //gridLines: false,
               display: true,
+              padding: 4,
               scaleLabel:{
                 display: true,
                 labelString: 'Year',
+                align:'center'
               }
             }],
             yAxes: [{
-              gridLines:{
-                drawBorder: false,
-              },
+              gridLines: false,
               display: true,
-              scaleLable: {
+              scaleLabel:{
                 display: true,
-                labelString: 'Value mUSD',
-                padding: 2
+                labelString: 'Million USD',
               }
             }]
           }
         }
       });
 
+//datatable = $.ajax("https://raw.githubusercontent.com/joyceyuqiliu/JOYCELIU/master/final/dataset/YearEI_AllDetail.csv").done()
 
+//$(document).ready( function () {
+//          $('#myTable').DataTable(datatable);
+//      } );
 
 //    type: 'line',
 //    data: {

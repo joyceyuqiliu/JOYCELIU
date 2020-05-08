@@ -125,14 +125,151 @@ function myFunction(arr){
       out3 = arr[21].BiggestExporter;
       out4 = arr[21].BiggestImporter;
     }}
-  //  if (arr[i].Year = document.getElementById("input").value){
-  //  out += arr[i].WorldexpValue;}
-  //}
-  document.getElementById("s1n").innerHTML = out1;
-  document.getElementById("s2n").innerHTML = out2;
-  document.getElementById("s3n").innerHTML = out3;
-  document.getElementById("s4n").innerHTML = out4;
+  $("#s1n").text(out1).fadeIn(1000);
+  $("#s2n").text(out2).fadeIn(1000);
+  $("#s3n").text(out3).fadeIn(1000);
+  $("#s4n").text(out4).fadeIn(1000);
+
 }
+
+
+function myFunctionTable(){
+  if (document.getElementById("input").value == "1996"){
+    $("p").empty().hide();
+    $("#tablecontain").hide();
+    $("#E-1996").appendTo('p.pE');
+    $("#I-1996").appendTo('p.pI');
+} else if (document.getElementById("input").value == "1997"){
+  $("p").empty().hide();
+  $("#tablecontain").hide();
+  $("#E-1997").appendTo('p.pE');
+  $("#I-1997").appendTo('p.pI');
+} else if (document.getElementById("input").value == "1998"){
+  $("p").empty().hide();
+  $("#tablecontain").hide();
+  $("#E-1998").appendTo('p.pE');
+  $("#I-1998").appendTo('p.pI');
+} else if (document.getElementById("input").value == "1999"){
+  $("p").empty().hide();
+  $("#tablecontain").hide();
+  $("#E-1999").appendTo('p.pE');
+  $("#I-1999").appendTo('p.pI');
+} else if (document.getElementById("input").value == "2000"){
+  $("p").empty().hide();
+  $("#tablecontain").hide();
+  $("#E-2000").appendTo('p.pE');
+  $("#I-2000").appendTo('p.pI');
+} else if (document.getElementById("input").value == "2001"){
+  $("p").empty().hide();
+  $("#tablecontain").hide();
+  $("#E-2001").appendTo('p.pE');
+  $("#I-2001").appendTo('p.pI');
+} else if (document.getElementById("input").value == "2002"){
+  $("p").empty().hide();
+  $("#tablecontain").hide();
+  $("#E-2002").appendTo('p.pE');
+  $("#I-2002").appendTo('p.pI');
+}else if (document.getElementById("input").value == "2003"){
+  $("p").empty().hide();
+  $("#tablecontain").hide();
+  $("#E-2003").appendTo('p.pE');
+  $("#I-2003").appendTo('p.pI');
+} else if (document.getElementById("input").value == "2004"){
+  $("p").empty().hide();
+  $("#tablecontain").hide();
+  $("#E-2004").appendTo('p.pE');
+  $("#I-2004").appendTo('p.pI');
+} else if (document.getElementById("input").value == "2005"){
+  $("p").empty().hide();
+  $("#tablecontain").hide();
+  $("#E-2005").appendTo('p.pE');
+  $("#I-2005").appendTo('p.pI');
+} else if (document.getElementById("input").value == "2006"){
+  $("p").empty().hide();
+  $("#tablecontain").hide();
+  $("#E-2006").appendTo('p.pE');
+  $("#I-2006").appendTo('p.pI');
+} else if (document.getElementById("input").value == "2007"){
+  $("p").empty().hide();
+  $("#tablecontain").hide();
+  $("#E-2007").appendTo('p.pE');
+  $("#I-2007").appendTo('p.pI');
+} else if (document.getElementById("input").value == "2008"){
+  $("p").empty().hide();
+  $("#tablecontain").hide();
+  $("#E-2008").appendTo('p.pE');
+  $("#I-2008").appendTo('p.pI');
+} else if (document.getElementById("input").value == "2009"){
+  $("p").empty().hide();
+  $("#tablecontain").hide();
+  $("#E-2009").appendTo('p.pE');
+  $("#I-2009").appendTo('p.pI');
+} else if (document.getElementById("input").value == "2010"){
+  $("p").empty().hide();
+  $("#tablecontain").hide();
+  $("#E-2010").appendTo('p.pE');
+  $("#I-2010").appendTo('p.pI');
+} else if (document.getElementById("input").value == "2011"){
+  $("p").empty().hide();
+  $("#tablecontain").hide();
+  $("#E-2011").appendTo('p.pE');
+  $("#I-2011").appendTo('p.pI');
+} else if (document.getElementById("input").value == "2012"){
+  $("p").empty().hide();
+  $("#tablecontain").hide();
+  $("#E-2012").appendTo('p.pE');
+  $("#I-2012").appendTo('p.pI');
+} else if (document.getElementById("input").value == "2013"){
+  $("p").empty().hide();
+  $("#tablecontain").hide();
+  $("#E-2013").appendTo('p.pE');
+  $("#I-2013").appendTo('p.pI');
+} else if (document.getElementById("input").value == "2014"){
+  $("p").empty().hide();
+  $("#tablecontain").hide();
+  $("#E-2014").appendTo('p.pE');
+  $("#I-2014").appendTo('p.pI');
+} else if (document.getElementById("input").value == "2015"){
+  $("p").empty().hide();
+  $("#tablecontain").hide();
+  $("#E-2015").appendTo('p.pE');
+  $("#I-2015").appendTo('p.pI');
+} else if (document.getElementById("input").value == "2016"){
+  $("p").empty().hide();
+  $("#tablecontain").hide();
+  $("#E-2016").appendTo('p.pE');
+  $("#I-2016").appendTo('p.pI');
+} else if (document.getElementById("input").value == "2017"){
+  $("p").empty().hide();
+  $("#tablecontain").hide();
+  $("#E-2017").appendTo('p.pE');
+  $("#I-2017").appendTo('p.pI');
+} else {
+  $("p").empty().hide();
+  $("#tablecontain").hide();
+}
+}
+
+function myFunctionTableE(){
+ $("p.pE").show();
+ $("p.pI").hide();}
+
+ function myFunctionTableI(){
+  $("p.pI").show();
+  $("p.pE").hide();}
+
+
+
+//  $("#E-1996").appendTo("p");}
+ //var x = document.getElementById("#E-place-table");
+// var y = document.getElementByTagName("p");
+ //if (x.style.display === "none" ) {
+  //  x.style.display = "block";
+//    document.get("E-1996").style.display = "none";
+ //} else {
+//  x.style.display = "none";}  }
+
+
 
 
 
