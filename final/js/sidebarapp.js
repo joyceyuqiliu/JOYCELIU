@@ -5,10 +5,11 @@ var data = $.ajax({
   dataType:'json'
 }).responseJSON;
 
+
 // DISPLAY RESULT IN HIGHLIGHT SECTION 1
 myFunction(data);
 
-
+////For Search by year
 function myFunction(arr){
   var out1 = "";
   var out2 = "";
@@ -134,6 +135,7 @@ function myFunction(arr){
 }
 
 
+//DISPLAY table
 function myFunctionTable(){
   if (document.getElementById("input").value == "1996"){
     $("p").empty().hide();

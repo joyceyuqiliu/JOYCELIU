@@ -52,6 +52,7 @@
           <div class = "textbox">
              <label for="sel"> </label>
               <select id="selection" class="suggestion" style="width: 100%">
+                  <option></option>
                   <option>Albania</option>
                   <option>Algeria</option>
                   <option>Andorra</option>
@@ -164,7 +165,7 @@
               </select>
               <!--input type="text" id="input" autoComplete="on" list = "suggestions" placeholder="Choose A Country"-->
           </div>
-          <button id = "go" onclick="myFunction(data); myFunctionTable()">
+          <button id = "go" onclick="myFunction(datacountry)">
             <svg class="bi bi-search" width="3em" height="3em" color="#E5E5E5" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
               <path fill-rule="evenodd" d="M10.442 10.442a1 1 0 011.415 0l3.85 3.85a1 1 0 01-1.414 1.415l-3.85-3.85a1 1 0 010-1.415z" clip-rule="evenodd"/>
               <path fill-rule="evenodd" d="M6.5 12a5.5 5.5 0 100-11 5.5 5.5 0 000 11zM13 6.5a6.5 6.5 0 11-13 0 6.5 6.5 0 0113 0z" clip-rule="evenodd"/>
@@ -179,25 +180,24 @@
 
         <div class = "highlight">
           <div class = "section-1">
-            <div class = "section-1 hshead">Total Export Value 1996-2017</div>
-            <div class = "section-1 number"><span id = "s5n"></span>
-            </div>
+            <div class = "section-1 hshead">Total Export Value</div>
+            <div class = "section-1 number"><span id = "s5n"></span></div>
             <div class = "section-1 unit">Million <br> USD</div>
           </div>
           <div class="section-2">
-            <div class = "section-2 hshead">Total Import Value 1996-2017</div>
+            <div class = "section-2 hshead">Total Import Value</div>
             <div class = "section-2 number"><span id = "s6n"></span></div>
             <div class = "section-2 unit">Million <br> USD</div>
           </div>
           <div class = "section-3">
-            <div class = "section-3 hshead">Total Export Weight 1996-2017</div>
+            <div class = "section-3 hshead">Total Export Weight</div>
             <div class = "section-3 number"><span id = "s7n"></span></div>
             <div class = "section-3 unit">Million <br> kg</div>
           </div>
           <div class = "section-4">
-            <div class = "section-4 hshead">Total Import Weight 1996-2017</div>
+            <div class = "section-4 hshead">Total Import Weight</div>
             <div class = "section-4 number"><span id = "s8n"></span></div>
-            <div class = "section-3 unit">Million <br> kg</div>
+            <div class = "section-4 unit">Million <br> kg</div>
           </div>
         </div>
 
@@ -23463,7 +23463,7 @@
           integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
           crossorigin="anonymous"></script-->
         <script src="js/chartapp.js"></script>
-        <script src="js/sidebarapp.js"></script>
+        <script src="js/sidebar-countryapp.js"></script>
         <script src="js/mapmain.js"></script>
   </body>
 </html>
