@@ -114,23 +114,31 @@ img {
       top: 30px;
   }
 
+  .select2-selection__rendered {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+  }
+
+.select2-results__options{
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+}
 ::placeholder{
-  color: 	#A9A9A9;
+  color: #bab9bb;
   font-size: 18px;
 }
   #input{
   position: absolute;
   width: 270px;
-  height: 28px;
+  height: 64px;
   left: 0px;
   top: 0px;
-  background: #ffffff;
-  border: 1px solid #E5E5E5;
-  border-radius: 3px;
+  background: #E5E5E5;
+  border: 2px solid #E5E5E5;
   box-sizing: border-box;
   font-family: 'Roboto', sans-serif;
-  font-size: 20px;
-  text-align: left;
+  font-size: 26px;
+  text-align: center;
   display: inline-block;
   }
 

@@ -1,3 +1,4 @@
+//
 var data = $.ajax({
   url:"https://raw.githubusercontent.com/joyceyuqiliu/JOYCELIU/master/final/dataset/YearEIandBig.json",
   async:false,
@@ -137,118 +138,122 @@ function myFunctionTable(){
   if (document.getElementById("input").value == "1996"){
     $("p").empty().hide();
     $("#tablecontain").hide();
-    $("#E-1996").appendTo('p.pE');
-    $("#I-1996").appendTo('p.pI');
+    $("#E-1996").clone().appendTo('p.pE');
+    $("#I-1996").clone().appendTo('p.pI');
 } else if (document.getElementById("input").value == "1997"){
   $("p").empty().hide();
   $("#tablecontain").hide();
-  $("#E-1997").appendTo('p.pE');
-  $("#I-1997").appendTo('p.pI');
+  $("#E-1997").clone().appendTo('p.pE');
+  $("#I-1997").clone().appendTo('p.pI');
 } else if (document.getElementById("input").value == "1998"){
   $("p").empty().hide();
   $("#tablecontain").hide();
-  $("#E-1998").appendTo('p.pE');
-  $("#I-1998").appendTo('p.pI');
+  $("#E-1998").clone().appendTo('p.pE');
+  $("#I-1998").clone().appendTo('p.pI');
 } else if (document.getElementById("input").value == "1999"){
   $("p").empty().hide();
   $("#tablecontain").hide();
-  $("#E-1999").appendTo('p.pE');
-  $("#I-1999").appendTo('p.pI');
+  $("#E-1999").clone().appendTo('p.pE');
+  $("#I-1999").clone().appendTo('p.pI');
 } else if (document.getElementById("input").value == "2000"){
   $("p").empty().hide();
   $("#tablecontain").hide();
-  $("#E-2000").appendTo('p.pE');
-  $("#I-2000").appendTo('p.pI');
+  $("#E-2000").clone().appendTo('p.pE');
+  $("#I-2000").clone().appendTo('p.pI');
 } else if (document.getElementById("input").value == "2001"){
   $("p").empty().hide();
   $("#tablecontain").hide();
-  $("#E-2001").appendTo('p.pE');
-  $("#I-2001").appendTo('p.pI');
+  $("#E-2001").clone().appendTo('p.pE');
+  $("#I-2001").clone().appendTo('p.pI');
 } else if (document.getElementById("input").value == "2002"){
   $("p").empty().hide();
   $("#tablecontain").hide();
-  $("#E-2002").appendTo('p.pE');
-  $("#I-2002").appendTo('p.pI');
+  $("#E-2002").clone().appendTo('p.pE');
+  $("#I-2002").clone().appendTo('p.pI');
 }else if (document.getElementById("input").value == "2003"){
   $("p").empty().hide();
   $("#tablecontain").hide();
-  $("#E-2003").appendTo('p.pE');
-  $("#I-2003").appendTo('p.pI');
+  $("#E-2003").clone().appendTo('p.pE');
+  $("#I-2003").clone().appendTo('p.pI');
 } else if (document.getElementById("input").value == "2004"){
   $("p").empty().hide();
   $("#tablecontain").hide();
-  $("#E-2004").appendTo('p.pE');
-  $("#I-2004").appendTo('p.pI');
+  $("#E-2004").clone().appendTo('p.pE');
+  $("#I-2004").clone().appendTo('p.pI');
 } else if (document.getElementById("input").value == "2005"){
   $("p").empty().hide();
   $("#tablecontain").hide();
-  $("#E-2005").appendTo('p.pE');
-  $("#I-2005").appendTo('p.pI');
+  $("#E-2005").clone().appendTo('p.pE');
+  $("#I-2005").clone().appendTo('p.pI');
 } else if (document.getElementById("input").value == "2006"){
   $("p").empty().hide();
   $("#tablecontain").hide();
-  $("#E-2006").appendTo('p.pE');
-  $("#I-2006").appendTo('p.pI');
+  $("#E-2006").clone().appendTo('p.pE');
+  $("#I-2006").clone().appendTo('p.pI');
 } else if (document.getElementById("input").value == "2007"){
   $("p").empty().hide();
   $("#tablecontain").hide();
-  $("#E-2007").appendTo('p.pE');
-  $("#I-2007").appendTo('p.pI');
+  $("#E-2007").clone().appendTo('p.pE');
+  $("#I-2007").clone().appendTo('p.pI');
 } else if (document.getElementById("input").value == "2008"){
   $("p").empty().hide();
   $("#tablecontain").hide();
-  $("#E-2008").appendTo('p.pE');
-  $("#I-2008").appendTo('p.pI');
+  $("#E-2008").clone().appendTo('p.pE');
+  $("#I-2008").clone().appendTo('p.pI');
 } else if (document.getElementById("input").value == "2009"){
   $("p").empty().hide();
   $("#tablecontain").hide();
-  $("#E-2009").appendTo('p.pE');
-  $("#I-2009").appendTo('p.pI');
+  $("#E-2009").clone().appendTo('p.pE');
+  $("#I-2009").clone().appendTo('p.pI');
 } else if (document.getElementById("input").value == "2010"){
   $("p").empty().hide();
   $("#tablecontain").hide();
-  $("#E-2010").appendTo('p.pE');
-  $("#I-2010").appendTo('p.pI');
+  $("#E-2010").clone().appendTo('p.pE');
+  $("#I-2010").clone().appendTo('p.pI');
 } else if (document.getElementById("input").value == "2011"){
   $("p").empty().hide();
   $("#tablecontain").hide();
-  $("#E-2011").appendTo('p.pE');
-  $("#I-2011").appendTo('p.pI');
+  $("#E-2011").clone().appendTo('p.pE');
+  $("#I-2011").clone().appendTo('p.pI');
 } else if (document.getElementById("input").value == "2012"){
   $("p").empty().hide();
   $("#tablecontain").hide();
-  $("#E-2012").appendTo('p.pE');
-  $("#I-2012").appendTo('p.pI');
+  $("#E-2012").clone().appendTo('p.pE');
+  $("#I-2012").clone().appendTo('p.pI');
 } else if (document.getElementById("input").value == "2013"){
   $("p").empty().hide();
   $("#tablecontain").hide();
-  $("#E-2013").appendTo('p.pE');
-  $("#I-2013").appendTo('p.pI');
+  $("#E-2013").clone().appendTo('p.pE');
+  $("#I-2013").clone().appendTo('p.pI');
 } else if (document.getElementById("input").value == "2014"){
   $("p").empty().hide();
   $("#tablecontain").hide();
-  $("#E-2014").appendTo('p.pE');
-  $("#I-2014").appendTo('p.pI');
+  $("#E-2014").clone().appendTo('p.pE');
+  $("#I-2014").clone().appendTo('p.pI');
 } else if (document.getElementById("input").value == "2015"){
   $("p").empty().hide();
   $("#tablecontain").hide();
-  $("#E-2015").appendTo('p.pE');
-  $("#I-2015").appendTo('p.pI');
+  $("#E-2015").clone().appendTo('p.pE');
+  $("#I-2015").clone().appendTo('p.pI');
 } else if (document.getElementById("input").value == "2016"){
   $("p").empty().hide();
   $("#tablecontain").hide();
-  $("#E-2016").appendTo('p.pE');
-  $("#I-2016").appendTo('p.pI');
+  $("#E-2016").clone().appendTo('p.pE');
+  $("#I-2016").clone().appendTo('p.pI');
 } else if (document.getElementById("input").value == "2017"){
   $("p").empty().hide();
   $("#tablecontain").hide();
-  $("#E-2017").appendTo('p.pE');
-  $("#I-2017").appendTo('p.pI');
+  $("#E-2017").clone().appendTo('p.pE');
+  $("#I-2017").clone().appendTo('p.pI');
 } else {
   $("p").empty().hide();
   $("#tablecontain").hide();
 }
+$('table').tablesorter().trigger("update");
+$('table').tablesorter().trigger("appendCache");
 }
+
+
 
 function myFunctionTableE(){
  $("p.pE").show();
@@ -257,6 +262,7 @@ function myFunctionTableE(){
  function myFunctionTableI(){
   $("p.pI").show();
   $("p.pE").hide();}
+
 
 
 

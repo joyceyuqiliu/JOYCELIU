@@ -29,7 +29,7 @@ var data = {
       borderColor: '#FFDBC9',
       data: [432.65,484.47,508.78,666.82,927.76,947.27,974.16,1260.15,1993.93,2804.43,3630.36,4468.03,5528.55,4438.21,6342.22,7920.75,8120.16,7977.96,8030.45,5762.62,4951.41,4816.98]
     }]
-}
+};
 
 var ctx = $("#myChart");
 //var data = $.ajax({
@@ -51,7 +51,7 @@ var ctx = $("#myChart");
               padding: 10,
             },
             position: 'bottom',
-            align: 'start'},
+            align: 'center'},
           scales: {
             xAxes: [{
               gridLines:{

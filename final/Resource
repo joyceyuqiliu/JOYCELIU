@@ -310,3 +310,391 @@ else{
       rowsArray.sort(compare);
       tbody.concat(...rowsArray);///ES6 wasn't compatible with all
     }
+
+
+
+
+    //change button color upon clicking (not working)
+      var count = 1;
+          function setColorE(btn, color) {
+              var property = document.getElementById(btn);
+              if (count == 0) {
+                  property.style.backgroundColor = "#FFDBC9";
+                  count = 1;
+              }
+              else {
+                  property.style.backgroundColor = "#E5E5E5";
+                  count = 0;
+              }
+          }
+
+box-shadow: 5px 10px rgba(214, 164, 164, 0.7);
+
+
+
+
+
+
+// When a click event occurs on a feature in the states layer, open a popup at the
+// location of the click, with description HTML from its properties.
+map.on('click', 'Export-2017', function(e) {
+  var p = e.features[0].properties;
+  new mapboxgl.Popup()
+  .setLngLat(e.lngLat)
+  .setHTML('In '+ p.Year + ', ' + p.expName + ' exported '+ p.expVmusd + ' Million USD of ' + 'self-reported ' + p.expWmkg + ' Million kg ' + 'plastic scraps to the world. (UN Comtrade Data)')
+  .addTo(map);
+});
+
+// Change the cursor to a pointer when the mouse is over the states layer.
+map.on('mouseenter', 'Export-2017', function() {
+map.getCanvas().style.cursor = 'pointer';
+});
+
+// Change it back to a pointer when it leaves.
+map.on('mouseleave', 'Export-2017', function() {
+map.getCanvas().style.cursor = '';
+});
+});
+
+
+
+
+
+
+
+
+//add another addSource
+map.addSource('imp1996', {
+'type': 'geojson',
+'data': 'https://raw.githubusercontent.com/joyceyuqiliu/JOYCELIU/master/final/dataset/country_dataset/n1996.json'
+});
+// Add a layer showing the state polygons.
+map.addLayer({
+'id': 'import-1996',
+'type': 'fill',
+'source': 'imp1996',
+'layout': {
+  'visibility': 'none'},
+'paint': {
+'fill-color': 'rgba(255, 219, 201, 0.5)',
+'fill-outline-color': 'rgba(255, 219, 201, 1)'
+}
+});
+
+
+//this is not right
+function hideAllLayers (){
+  var linkall = document.getElementById("go");
+  linkall.className = 'active';
+  linkall.onclick = function (e){
+  for(var index in toggleLayerAll) {
+      var clickedLayer = toggleLayerAll[index];
+      //;
+      e.preventDefault();
+      e.stopPropagation();
+
+      var visibilityAll = map.getLayoutProperty(clickedLayer, 'visibility');
+
+      if (visibilityAll === 'visible') {
+          map.setLayoutProperty(clickedLayer, 'visibility', 'none');
+          this.className = '';
+      } else {
+          this.className = 'active';
+          map.setLayoutProperty(clickedLayer, 'visibility', 'visible');
+      }
+    }
+linkall.appendChild(linkall);
+};}
+
+
+
+
+/// debugg these
+
+function myFunctionTable(){
+  if (document.getElementById("input").value == "1996"){
+    $("p").empty().hide();
+    $("#tablecontain").hide();
+    $("#E-1996").appendTo('p.pE');
+    $("#I-1996").appendTo('p.pI');
+} else if (document.getElementById("input").value == "1997"){
+  $("p").empty().hide();
+  $("#tablecontain").hide();
+  $("#E-1997").appendTo('p.pE');
+  $("#I-1997").appendTo('p.pI');
+} else if (document.getElementById("input").value == "1998"){
+  $("p").empty().hide();
+  $("#tablecontain").hide();
+  $("#E-1998").appendTo('p.pE');
+  $("#I-1998").appendTo('p.pI');
+} else if (document.getElementById("input").value == "1999"){
+  $("p").empty().hide();
+  $("#tablecontain").hide();
+  $("#E-1999").appendTo('p.pE');
+  $("#I-1999").appendTo('p.pI');
+} else if (document.getElementById("input").value == "2000"){
+  $("p").empty().hide();
+  $("#tablecontain").hide();
+  $("#E-2000").appendTo('p.pE');
+  $("#I-2000").appendTo('p.pI');
+} else if (document.getElementById("input").value == "2001"){
+  $("p").empty().hide();
+  $("#tablecontain").hide();
+  $("#E-2001").appendTo('p.pE');
+  $("#I-2001").appendTo('p.pI');
+} else if (document.getElementById("input").value == "2002"){
+  $("p").empty().hide();
+  $("#tablecontain").hide();
+  $("#E-2002").appendTo('p.pE');
+  $("#I-2002").appendTo('p.pI');
+}else if (document.getElementById("input").value == "2003"){
+  $("p").empty().hide();
+  $("#tablecontain").hide();
+  $("#E-2003").appendTo('p.pE');
+  $("#I-2003").appendTo('p.pI');
+} else if (document.getElementById("input").value == "2004"){
+  $("p").empty().hide();
+  $("#tablecontain").hide();
+  $("#E-2004").appendTo('p.pE');
+  $("#I-2004").appendTo('p.pI');
+} else if (document.getElementById("input").value == "2005"){
+  $("p").empty().hide();
+  $("#tablecontain").hide();
+  $("#E-2005").appendTo('p.pE');
+  $("#I-2005").appendTo('p.pI');
+} else if (document.getElementById("input").value == "2006"){
+  $("p").empty().hide();
+  $("#tablecontain").hide();
+  $("#E-2006").appendTo('p.pE');
+  $("#I-2006").appendTo('p.pI');
+} else if (document.getElementById("input").value == "2007"){
+  $("p").empty().hide();
+  $("#tablecontain").hide();
+  $("#E-2007").appendTo('p.pE');
+  $("#I-2007").appendTo('p.pI');
+} else if (document.getElementById("input").value == "2008"){
+  $("p").empty().hide();
+  $("#tablecontain").hide();
+  $("#E-2008").appendTo('p.pE');
+  $("#I-2008").appendTo('p.pI');
+} else if (document.getElementById("input").value == "2009"){
+  $("p").empty().hide();
+  $("#tablecontain").hide();
+  $("#E-2009").appendTo('p.pE');
+  $("#I-2009").appendTo('p.pI');
+} else if (document.getElementById("input").value == "2010"){
+  $("p").empty().hide();
+  $("#tablecontain").hide();
+  $("#E-2010").appendTo('p.pE');
+  $("#I-2010").appendTo('p.pI');
+} else if (document.getElementById("input").value == "2011"){
+  $("p").empty().hide();
+  $("#tablecontain").hide();
+  $("#E-2011").appendTo('p.pE');
+  $("#I-2011").appendTo('p.pI');
+} else if (document.getElementById("input").value == "2012"){
+  $("p").empty().hide();
+  $("#tablecontain").hide();
+  $("#E-2012").appendTo('p.pE');
+  $("#I-2012").appendTo('p.pI');
+} else if (document.getElementById("input").value == "2013"){
+  $("p").empty().hide();
+  $("#tablecontain").hide();
+  $("#E-2013").appendTo('p.pE');
+  $("#I-2013").appendTo('p.pI');
+} else if (document.getElementById("input").value == "2014"){
+  $("p").empty().hide();
+  $("#tablecontain").hide();
+  $("#E-2014").appendTo('p.pE');
+  $("#I-2014").appendTo('p.pI');
+} else if (document.getElementById("input").value == "2015"){
+  $("p").empty().hide();
+  $("#tablecontain").hide();
+  $("#E-2015").appendTo('p.pE');
+  $("#I-2015").appendTo('p.pI');
+} else if (document.getElementById("input").value == "2016"){
+  $("p").empty().hide();
+  $("#tablecontain").hide();
+  $("#E-2016").appendTo('p.pE');
+  $("#I-2016").appendTo('p.pI');
+} else if (document.getElementById("input").value == "2017"){
+  $("p").empty().hide();
+  $("#tablecontain").hide();
+  $("#E-2017").appendTo('p.pE');
+  $("#I-2017").appendTo('p.pI');
+} else {
+  $("p").empty().hide();
+  $("#tablecontain").hide();
+}
+}
+
+
+
+
+
+
+
+
+
+function myFunctionTable(){
+  var input = document.getElementById("input").value;
+  if (input === "1996"){
+    $('p').empty().hide();
+    $("#tablecontain").hide();
+    var $e96 = $("#E-1996").clone();
+    var $i96 = $("#I-1996").clone();
+    $("p.pE").append($e96);
+    $('p.pI').append($i96);
+  } else if (input === "1997"){
+    $('p').empty().hide();
+    $("#tablecontain").hide();
+    var $e97 = $("#E-1997").clone();
+    var $i97 = $("#I-1997").clone();
+    $("p.pE").append($e97);
+    $('p.pI').append($i97);
+}else if (input === "1998"){
+  $('p').empty().hide();
+  $("#tablecontain").hide();
+  var $e98 = $("#E-1998").clone();
+  var $i98 = $("#I-1998").clone();
+  $("p.pE").append($e98);
+  $('p.pI').append($i98);
+}else if (document.getElementById("input").value == "1999"){
+  $('p').empty().hide();
+  $("#tablecontain").hide();
+  var $e99 = $("#E-1999").clone();
+  var $i99 = $("#I-1999").clone();
+  $("p.pE").append($e99);
+  $('p.pI').append($i99);
+} else if (document.getElementById("input").value == "2000"){
+  $('p').empty().hide();
+  $("#tablecontain").hide();
+  var $e00 = $("#E-2000").clone();
+  var $i00 = $("#I-2000").clone();
+  $("p.pE").append($e00);
+  $('p.pI').append($i00);
+} else if (document.getElementById("input").value == "2001"){
+  $('p').empty().hide();
+  $("#tablecontain").hide();
+  var $e01 = $("#E-2001").clone();
+  var $i01 = $("#I-2001").clone();
+  $("p.pE").append($e01);
+  $('p.pI').append($i01);
+} else if (document.getElementById("input").value == "2002"){
+  $('p').empty().hide();
+  $("#tablecontain").hide();
+  var $e02 = $("#E-2002").clone();
+  var $i02 = $("#I-2002").clone();
+  $("p.pE").append($e02);
+  $('p.pI').append($i02);
+}else if (document.getElementById("input").value == "2003"){
+  $('p').empty().hide();
+  $("#tablecontain").hide();
+  var $e03 = $("#E-2003").clone();
+  var $i03 = $("#I-2003").clone();
+  $("p.pE").append($e03);
+  $('p.pI').append($i03);
+} else if (document.getElementById("input").value == "2004"){
+  $('p').empty().hide();
+  $("#tablecontain").hide();
+  var $e04 = $("#E-2004").clone();
+  var $i04 = $("#I-2004").clone();
+  $("p.pE").append($e04);
+  $('p.pI').append($i04);
+} else if (document.getElementById("input").value == "2005"){
+  $('p').empty().hide();
+  $("#tablecontain").hide();
+  var $e05 = $("#E-2005").clone();
+  var $i05 = $("#I-2005").clone();
+  $("p.pE").append($e05);
+  $('p.pI').append($i05);
+} else if (document.getElementById("input").value == "2006"){
+  $('p').empty().hide();
+  $("#tablecontain").hide();
+  var $e06 = $("#E-2006").clone();
+  var $i06 = $("#I-2006").clone();
+  $("p.pE").append($e06);
+  $('p.pI').append($i06);
+} else if (document.getElementById("input").value == "2007"){
+  $('p').empty().hide();
+  $("#tablecontain").hide();
+  var $e07 = $("#E-2007").clone();
+  var $i07 = $("#I-2007").clone();
+  $("p.pE").append($e07);
+  $('p.pI').append($i07);
+} else if (document.getElementById("input").value == "2008"){
+  $('p').empty().hide();
+  $("#tablecontain").hide();
+  var $e08 = $("#E-2008").clone();
+  var $i08 = $("#I-2008").clone();
+  $("p.pE").append($e08);
+  $('p.pI').append($i08);
+} else if (document.getElementById("input").value == "2009"){
+  $('p').empty().hide();
+  $("#tablecontain").hide();
+  var $e09 = $("#E-2009").clone();
+  var $i09 = $("#I-2009").clone();
+  $("p.pE").append($e09);
+  $('p.pI').append($i09);
+} else if (document.getElementById("input").value == "2010"){
+  $('p').empty().hide();
+  $("#tablecontain").hide();
+  var $e10 = $("#E-2010").clone();
+  var $i10 = $("#I-2010").clone();
+  $("p.pE").append($e10);
+  $('p.pI').append($i10);
+} else if (document.getElementById("input").value == "2011"){
+  $('p').empty().hide();
+  $("#tablecontain").hide();
+  var $e11 = $("#E-2011").clone();
+  var $i11 = $("#I-2011").clone();
+  $("p.pE").append($e11);
+  $('p.pI').append($i11);
+} else if (document.getElementById("input").value == "2012"){
+  $('p').empty().hide();
+  $("#tablecontain").hide();
+  var $e12 = $("#E-2012").clone();
+  var $i12 = $("#I-2012").clone();
+  $("p.pE").append($e12);
+  $('p.pI').append($i12);
+} else if (document.getElementById("input").value == "2013"){
+  $('p').empty().hide();
+  $("#tablecontain").hide();
+  var $e13 = $("#E-2013").clone();
+  var $i13 = $("#I-2013").clone();
+  $("p.pE").append($e13);
+  $('p.pI').append($i13);
+} else if (document.getElementById("input").value == "2014"){
+  $('p').empty().hide();
+  $("#tablecontain").hide();
+  var $e14 = $("#E-2014").clone();
+  var $i14 = $("#I-2014").clone();
+  $("p.pE").append($e14);
+  $('p.pI').append($i14);
+} else if (document.getElementById("input").value == "2015"){
+  $('p').empty().hide();
+  $("#tablecontain").hide();
+  var $e15 = $("#E-2015").clone();
+  var $i15 = $("#I-2015").clone();
+  $("p.pE").append($e15);
+  $('p.pI').append($i15);
+} else if (document.getElementById("input").value == "2016"){
+  $('p').empty().hide();
+  $("#tablecontain").hide();
+  var $e16 = $("#E-2016").clone();
+  var $i16 = $("#I-2016").clone();
+  $("p.pE").append($e16);
+  $('p.pI').append($i16);
+} else if (document.getElementById("input").value == "2017"){
+  $('p').empty().hide();
+  $("#tablecontain").hide();
+  var $e17 = $("#E-2017").clone();
+  var $i17 = $("#I-2017").clone();
+  $("p.pE").append($e17);
+  $('p.pI').append($i17);
+} else {
+  $('p').empty().hide();
+  $("#tablecontain").hide();
+}
+//break;}
+}

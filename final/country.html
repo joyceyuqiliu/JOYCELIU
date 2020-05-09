@@ -7,14 +7,15 @@
     <title>Global Plastic Waste Trade</title>
 
     <!--CSS Imports-->
-    <link rel = "stylesheet" href="css/style.css" />
+    <link rel = "stylesheet" href="css/style-country.css" />
     <link rel="stylesheet" href="css/theme.materialize.css">
     <link href='https://api.mapbox.com/mapbox-gl-js/v1.10.0/mapbox-gl.css' rel='stylesheet' />
     <link href = "https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.css" rel='stylesheet'/>
+    <link href="https://cdn.jsdelivr.net/npm/select2@4.0.13/dist/css/select2.min.css" rel="stylesheet" />
 
     <!--link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"-->
 
-    <!--add table sort, mapbox, chart JS-->
+    <!--add table sort, mapbox, chart, select2 JS-->
     <script
       src="https://code.jquery.com/jquery-3.4.1.min.js"
       integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
@@ -22,6 +23,7 @@
     <script type="text/javascript" src="js/jquery.tablesorter.js"></script>
     <script src='https://api.mapbox.com/mapbox-gl-js/v1.10.0/mapbox-gl.js'></script>
     <script src = "https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/select2@4.0.13/dist/js/select2.min.js"></script>
     <!--script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script-->
 
     <!---add data-->
@@ -48,7 +50,119 @@
 
         <div class = "search" >
           <div class = "textbox">
-              <label for="sel"> </label><input type="number" id="input" placeholder=" Type in Any Year 1996-2017">
+             <label for="sel"> </label>
+              <select class="suggestion" style="width: 100%">
+                  <option>Albania</option>
+                  <option>Algeria</option>
+                  <option>Andorra</option>
+                  <option>Angola</option>
+                  <option>Argentina</option>
+                  <option>Armenia</option>
+                  <option>Australia</option>
+                  <option>Austria</option>
+                  <option>Azerbaijan</option>
+                  <option>Bahamas</option>
+                  <option>Bangladesh</option>
+                  <option>Belarus</option>
+                  <option>Belgium</option>
+                  <option>Belize</option>
+                  <option>Bhutan</option>
+                  <option>Bosnia and Herzegovina</option>
+                  <option>Botswana</option>
+                  <option>Brazil</option>
+                  <option>Bulgaria</option>
+                  <option>Burkina Faso</option>
+                  <option>Burundi</option>
+                  <option>Cabo Verde</option>
+                  <option>Cambodia</option>
+                  <option>Cameroon</option>
+                  <option>Chile</option>
+                  <option>China</option>
+                  <option>Colombia</option>
+                  <option>Costa Rica</option>
+                  <option>Croatia</option>
+                  <option>Cuba</option>
+                  <option>Cyprus</option>
+                  <option>Denmark</option>
+                  <option>Dominica</option>
+                  <option>Ecuador</option>
+                  <option>Egypt</option>
+                  <option>Estonia</option>
+                  <option>Finland</option>
+                  <option>France</option>
+                  <option>French Polynesia</option>
+                  <option>Georgia</option>
+                  <option>Germany</option>
+                  <option>Greece</option>
+                  <option>Honduras</option>
+                  <option>Hungary</option>
+                  <option>Iceland</option>
+                  <option>Indonesia</option>
+                    <option>Iraq</option>
+                    <option>Ireland</option>
+                    <option>Israel</option>
+                    <option>Italy</option>
+                    <option>Jamaica</option>
+                    <option>Japan</option>
+                    <option>Jordan</option>
+                    <option>Kazakhstan</option>
+                    <option>Kuwait</option>
+                    <option>Kyrgyzstan</option>
+                    <option>Latvia</option>
+                    <option>Lebanon</option>
+                    <option>Lithuania</option>
+                    <option>Luxembourg</option>
+                    <option>Madagascar</option>
+                    <option>Malaysia</option>
+                    <option>Maldives</option>
+                    <option>Malta</option>
+                    <option>Mauritius</option>
+                    <option>Mexico</option>
+                    <option>Montenegro</option>
+                    <option>Morocco</option>
+                    <option>Nepal</option>
+                    <option>Netherlands</option>
+                    <option>New Zealand</option>
+                    <option>Niger</option>
+                    <option>North Macedonia</option>
+                    <option>Norway</option>
+                    <option>Panama</option>
+                    <option>Peru</option>
+                    <option>Philippines</option>
+                    <option>Poland</option>
+                    <option>Portugal</option>
+                    <option>Qatar</option>
+                    <option>Romania</option>
+                    <option>Saint Lucia</option>
+                    <option>Saint Vincent and the Grenadines</option>
+                    <option>Samoa</option>
+                    <option>Senegal</option>
+                    <option>Serbia</option>
+                    <option>Singapore</option>
+                    <option>Slovakia</option>
+                    <option>Slovenia</option>
+                    <option>Spain</option>
+                    <option>Sri Lanka</option>
+                    <option>Suriname</option>
+                    <option>Sweden</option>
+                    <option>Switzerland</option>
+                    <option>Thailand</option>
+                    <option>Togo</option>
+                    <option>Trinidad and Tobago</option>
+                    <option>Tunisia</option>
+                    <option>Turkey</option>
+                    <option>Uganda</option>
+                    <option>Ukraine</option>
+                    <option>United Arab Emirates</option>
+                    <option>United Kingdom of Great Britain and Northern Ireland</option>
+                    <option>United States of America</option>
+                    <option>Uruguay</option>
+                    <option>Yemen</option>
+                    <option>Zambia</option>
+                    <option>Zimbabwe</option>
+                  <!--option value="WY">Wyoming</option-->
+              </select>
+              <!--input type="text" id="input" autoComplete="on" list = "suggestions" placeholder="Choose A Country"-->
           </div>
           <button id = "go" onclick="myFunction(data); myFunctionTable()">
             <svg class="bi bi-search" width="3em" height="3em" color="#E5E5E5" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
@@ -60,40 +174,40 @@
               <path fill-rule="evenodd" d="M15.817.613A.5.5 0 0116 1v13a.5.5 0 01-.402.49l-5 1a.502.502 0 01-.196 0L5.5 14.51l-4.902.98A.5.5 0 010 15V2a.5.5 0 01.402-.49l5-1a.5.5 0 01.196 0l4.902.98 4.902-.98a.5.5 0 01.415.103zM10 2.41l-4-.8v11.98l4 .8V2.41zm1 11.98l4-.8V1.61l-4 .8v11.98zm-6-.8V1.61l-4 .8v11.98l4-.8z" clip-rule="evenodd"/>
             </svg></button-->
         </div>
-          <button class = "switch" onclick="window.location.href = 'file:///Users/yuqiliu/Documents/GitHub/JOYCELIU/final/country.html'">Search Country Instead</button>
+          <button class = "switch" onclick="window.location.href = 'file:///Users/yuqiliu/Documents/GitHub/JOYCELIU/final/final.html'">Search Year Instead</button>
 
 
         <div class = "highlight">
           <div class = "section-1">
-            <div class = "section-1 hshead">Total Export Value</div>
-            <div class = "section-1 number"><span id = "s1n"></span>
+            <div class = "section-1 hshead">Total Export Value 1996-2017</div>
+            <div class = "section-1 number"><span id = "s5n"></span>
             </div>
             <div class = "section-1 unit">Million <br> USD</div>
           </div>
           <div class="section-2">
-            <div class = "section-2 hshead">Total Import Value</div>
-            <div class = "section-2 number"><span id = "s2n"></span></div>
+            <div class = "section-2 hshead">Total Import Value 1996-2017</div>
+            <div class = "section-2 number"><span id = "s6n"></span></div>
             <div class = "section-2 unit">Million <br> USD</div>
           </div>
           <div class = "section-3">
-            <div class = "section-3 hshead">#1 Exporter
+            <div class = "section-3 hshead">Recieve the Most from
               <svg class="bi bi-info-circle" width="2em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                 <path fill-rule="evenodd" d="M8 15A7 7 0 108 1a7 7 0 000 14zm0 1A8 8 0 108 0a8 8 0 000 16z" clip-rule="evenodd"/>
                 <path d="M8.93 6.588l-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588z"/>
                 <circle cx="8" cy="4.5" r="1"/>
               </svg>
             </div>
-            <div class = "section-3 name"><span id = "s3n"></span></div>
+            <div class = "section-3 name"><span id = "s7n"></span></div>
           </div>
           <div class = "section-4">
-            <div class = "section-4 hshead">#1 Importer
+            <div class = "section-4 hshead">Send the Most to
               <svg class="bi bi-info-circle" width="2em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                 <path fill-rule="evenodd" d="M8 15A7 7 0 108 1a7 7 0 000 14zm0 1A8 8 0 108 0a8 8 0 000 16z" clip-rule="evenodd"/>
                 <path d="M8.93 6.588l-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588z"/>
                 <circle cx="8" cy="4.5" r="1"/>
               </svg>
             </div>
-            <div class = "section-4 name"><span id = "s4n"></span></div>
+            <div class = "section-4 name"><span id = "s8n"></span></div>
           </div>
         </div>
 
@@ -23328,13 +23442,20 @@
     //      $(this).find(":button").hide();
     //  });
   //});
-    $(document).ready(function(){
+  $('.suggestion').select2({
+    width: 'resolve',
+    placeholder: "Type in a Country Name",
+    allowClear: true
+  });
+
+  //  $(document).ready(function(){
       $("#tablecontain").hide();
       $('table').tablesorter({
         theme:'default'
       });
       $('table').trigger("update");
-    $('worldmap')})
+    $('worldmap')
+  //})
 
 
 
