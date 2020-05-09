@@ -1,0 +1,758 @@
+[
+  {
+    "ExportValue": 15.19,
+    "ExportWeight": 24.04,
+    "ImportValue": 11.04,
+    "ImportWeight": 27.8,
+    "Name": "Albania"
+  },
+  {
+    "ExportValue": 5.45,
+    "ExportWeight": 19.32,
+    "ImportValue": 29.68,
+    "ImportWeight": 37.1,
+    "Name": "Algeria"
+  },
+  {
+    "ExportValue": 2.3,
+    "ExportWeight": 23.62,
+    "ImportValue": 0.01,
+    "ImportWeight": 0.1,
+    "Name": "Andorra"
+  },
+  {
+    "ExportValue": 0.67,
+    "ExportWeight": 2.54,
+    "ImportValue": 4.8,
+    "ImportWeight": 1.8,
+    "Name": "Angola"
+  },
+  {
+    "ExportValue": 243.42,
+    "ExportWeight": 416.81,
+    "ImportValue": 2.93,
+    "ImportWeight": 3.9,
+    "Name": "Argentina"
+  },
+  {
+    "ExportValue": 0.54,
+    "ExportWeight": 0.98,
+    "ImportValue": 0.56,
+    "ImportWeight": 0.8,
+    "Name": "Armenia"
+  },
+  {
+    "ExportValue": 767.2,
+    "ExportWeight": 2384.31,
+    "ImportValue": 87.96,
+    "ImportWeight": 159.2,
+    "Name": "Australia"
+  },
+  {
+    "ExportValue": 593.71,
+    "ExportWeight": 1832.31,
+    "ImportValue": 732.88,
+    "ImportWeight": 2361.2,
+    "Name": "Austria"
+  },
+  {
+    "ExportValue": 1.23,
+    "ExportWeight": 4.94,
+    "ImportValue": 0.49,
+    "ImportWeight": 1.1,
+    "Name": "Azerbaijan"
+  },
+  {
+    "ExportValue": 0.44,
+    "ExportWeight": 0.81,
+    "ImportValue": 289.72,
+    "ImportWeight": 70.6,
+    "Name": "Bahamas"
+  },
+  {
+    "ExportValue": 213.43,
+    "ExportWeight": 250.54,
+    "ImportValue": 17.18,
+    "ImportWeight": 39.7,
+    "Name": "Bangladesh"
+  },
+  {
+    "ExportValue": 30.34,
+    "ExportWeight": 72.31,
+    "ImportValue": 25.43,
+    "ImportWeight": 42.6,
+    "Name": "Belarus"
+  },
+  {
+    "ExportValue": 2744.3,
+    "ExportWeight": 6934.46,
+    "ImportValue": 1933.56,
+    "ImportWeight": 4400.7,
+    "Name": "Belgium"
+  },
+  {
+    "ExportValue": 0.92,
+    "ExportWeight": 7.17,
+    "ImportValue": 2.33,
+    "ImportWeight": 5.5,
+    "Name": "Belize"
+  },
+  {
+    "ExportValue": 0.88,
+    "ExportWeight": 4.67,
+    "ImportValue": 0.11,
+    "ImportWeight": 0,
+    "Name": "Bhutan"
+  },
+  {
+    "ExportValue": 27.73,
+    "ExportWeight": 63.79,
+    "ImportValue": 12.53,
+    "ImportWeight": 24.6,
+    "Name": "Bosnia and Herzegovina"
+  },
+  {
+    "ExportValue": 1.93,
+    "ExportWeight": 5.3,
+    "ImportValue": 4.53,
+    "ImportWeight": 3.2,
+    "Name": "Botswana"
+  },
+  {
+    "ExportValue": 63.12,
+    "ExportWeight": 152.02,
+    "ImportValue": 53.32,
+    "ImportWeight": 113.6,
+    "Name": "Brazil"
+  },
+  {
+    "ExportValue": 64.96,
+    "ExportWeight": 117.65,
+    "ImportValue": 49.37,
+    "ImportWeight": 182.6,
+    "Name": "Bulgaria"
+  },
+  {
+    "ExportValue": 0.16,
+    "ExportWeight": 4.52,
+    "ImportValue": 0.27,
+    "ImportWeight": 1.6,
+    "Name": "Burkina Faso"
+  },
+  {
+    "ExportValue": 0.03,
+    "ExportWeight": 0.25,
+    "ImportValue": 0.08,
+    "ImportWeight": 0.1,
+    "Name": "Burundi"
+  },
+  {
+    "ExportValue": 0.02,
+    "ExportWeight": 0.18,
+    "ImportValue": 0.25,
+    "ImportWeight": 0.2,
+    "Name": "Cabo Verde"
+  },
+  {
+    "ExportValue": 10.83,
+    "ExportWeight": 58.01,
+    "ImportValue": 0.9,
+    "ImportWeight": 1.1,
+    "Name": "Cambodia"
+  },
+  {
+    "ExportValue": 0.61,
+    "ExportWeight": 1.76,
+    "ImportValue": 1.75,
+    "ImportWeight": 2.6,
+    "Name": "Cameroon"
+  },
+  {
+    "ExportValue": 65.94,
+    "ExportWeight": 116.87,
+    "ImportValue": 69.22,
+    "ImportWeight": 94.4,
+    "Name": "Chile"
+  },
+  {
+    "ExportValue": 522.49,
+    "ExportWeight": 654.16,
+    "ImportValue": 60434.84,
+    "ImportWeight": 110601.1,
+    "Name": "China"
+  },
+  {
+    "ExportValue": 30.72,
+    "ExportWeight": 57.53,
+    "ImportValue": 27.69,
+    "ImportWeight": 106.2,
+    "Name": "Colombia"
+  },
+  {
+    "ExportValue": 49.63,
+    "ExportWeight": 114.46,
+    "ImportValue": 35.2,
+    "ImportWeight": 95.9,
+    "Name": "Costa Rica"
+  },
+  {
+    "ExportValue": 48.74,
+    "ExportWeight": 133.3,
+    "ImportValue": 43.54,
+    "ImportWeight": 93.4,
+    "Name": "Croatia"
+  },
+  {
+    "ExportValue": 0.17,
+    "ExportWeight": 0.57,
+    "ImportValue": 0.19,
+    "ImportWeight": 0.3,
+    "Name": "Cuba"
+  },
+  {
+    "ExportValue": 19.78,
+    "ExportWeight": 72.76,
+    "ImportValue": 0.41,
+    "ImportWeight": 0.2,
+    "Name": "Cyprus"
+  },
+  {
+    "ExportValue": 391.01,
+    "ExportWeight": 1671.71,
+    "ImportValue": 306.98,
+    "ImportWeight": 774.1,
+    "Name": "Denmark"
+  },
+  {
+    "ExportValue": 0,
+    "ExportWeight": 0,
+    "ImportValue": 0.02,
+    "ImportWeight": 0.1,
+    "Name": "Dominica"
+  },
+  {
+    "ExportValue": 128.41,
+    "ExportWeight": 222.64,
+    "ImportValue": 16.61,
+    "ImportWeight": 36.8,
+    "Name": "Ecuador"
+  },
+  {
+    "ExportValue": 64.48,
+    "ExportWeight": 87.26,
+    "ImportValue": 1.17,
+    "ImportWeight": 0.2,
+    "Name": "Egypt"
+  },
+  {
+    "ExportValue": 82.86,
+    "ExportWeight": 214.71,
+    "ImportValue": 19.91,
+    "ImportWeight": 35.7,
+    "Name": "Estonia"
+  },
+  {
+    "ExportValue": 146.64,
+    "ExportWeight": 414.72,
+    "ImportValue": 17.98,
+    "ImportWeight": 33.5,
+    "Name": "Finland"
+  },
+  {
+    "ExportValue": 3563.9,
+    "ExportWeight": 7806.58,
+    "ImportValue": 639.62,
+    "ImportWeight": 1397.9,
+    "Name": "France"
+  },
+  {
+    "ExportValue": 0.26,
+    "ExportWeight": 0.51,
+    "ImportValue": 0.01,
+    "ImportWeight": 0,
+    "Name": "French Polynesia"
+  },
+  {
+    "ExportValue": 2.64,
+    "ExportWeight": 6.46,
+    "ImportValue": 3.37,
+    "ImportWeight": 3.8,
+    "Name": "Georgia"
+  },
+  {
+    "ExportValue": 7401.04,
+    "ExportWeight": 18463.52,
+    "ImportValue": 1864.19,
+    "ImportWeight": 4530.2,
+    "Name": "Germany"
+  },
+  {
+    "ExportValue": 125.26,
+    "ExportWeight": 430.42,
+    "ImportValue": 111.8,
+    "ImportWeight": 180,
+    "Name": "Greece"
+  },
+  {
+    "ExportValue": 35.2,
+    "ExportWeight": 58.31,
+    "ImportValue": 9.8,
+    "ImportWeight": 29,
+    "Name": "Honduras"
+  },
+  {
+    "ExportValue": 101.21,
+    "ExportWeight": 195.72,
+    "ImportValue": 42.43,
+    "ImportWeight": 96.7,
+    "Name": "Hungary"
+  },
+  {
+    "ExportValue": 17.5,
+    "ExportWeight": 67.49,
+    "ImportValue": 0.95,
+    "ImportWeight": 0.5,
+    "Name": "Iceland"
+  },
+  {
+    "ExportValue": 1113.95,
+    "ExportWeight": 1787.99,
+    "ImportValue": 429.94,
+    "ImportWeight": 869.1,
+    "Name": "Indonesia"
+  },
+  {
+    "ExportValue": 38.21,
+    "ExportWeight": 144.25,
+    "ImportValue": "NA",
+    "ImportWeight": "NA",
+    "Name": "Iraq"
+  },
+  {
+    "ExportValue": 94.57,
+    "ExportWeight": 209.28,
+    "ImportValue": 1072.6,
+    "ImportWeight": 1191,
+    "Name": "Ireland"
+  },
+  {
+    "ExportValue": 96.28,
+    "ExportWeight": 269.38,
+    "ImportValue": 28.24,
+    "ImportWeight": 45.7,
+    "Name": "Israel"
+  },
+  {
+    "ExportValue": 1054.89,
+    "ExportWeight": 2174.1,
+    "ImportValue": 1721.85,
+    "ImportWeight": 2868.2,
+    "Name": "Italy"
+  },
+  {
+    "ExportValue": 4.01,
+    "ExportWeight": 13.67,
+    "ImportValue": 0.9,
+    "ImportWeight": 0.2,
+    "Name": "Jamaica"
+  },
+  {
+    "ExportValue": 9924.37,
+    "ExportWeight": 23109.21,
+    "ImportValue": 50.69,
+    "ImportWeight": 98.1,
+    "Name": "Japan"
+  },
+  {
+    "ExportValue": 4.68,
+    "ExportWeight": 14.9,
+    "ImportValue": 0.65,
+    "ImportWeight": 1.1,
+    "Name": "Jordan"
+  },
+  {
+    "ExportValue": 14.4,
+    "ExportWeight": 51.56,
+    "ImportValue": 1.65,
+    "ImportWeight": 1.4,
+    "Name": "Kazakhstan"
+  },
+  {
+    "ExportValue": 30.08,
+    "ExportWeight": 109.1,
+    "ImportValue": 2.44,
+    "ImportWeight": 1.5,
+    "Name": "Kuwait"
+  },
+  {
+    "ExportValue": 5.09,
+    "ExportWeight": 18.27,
+    "ImportValue": 0.91,
+    "ImportWeight": 3.5,
+    "Name": "Kyrgyzstan"
+  },
+  {
+    "ExportValue": 44.72,
+    "ExportWeight": 108.42,
+    "ImportValue": 121.41,
+    "ImportWeight": 736.1,
+    "Name": "Latvia"
+  },
+  {
+    "ExportValue": 33.09,
+    "ExportWeight": 52.05,
+    "ImportValue": 15.69,
+    "ImportWeight": 28.6,
+    "Name": "Lebanon"
+  },
+  {
+    "ExportValue": 93.91,
+    "ExportWeight": 242.76,
+    "ImportValue": 158.53,
+    "ImportWeight": 546.7,
+    "Name": "Lithuania"
+  },
+  {
+    "ExportValue": 59.56,
+    "ExportWeight": 226.79,
+    "ImportValue": 132.79,
+    "ImportWeight": 311.8,
+    "Name": "Luxembourg"
+  },
+  {
+    "ExportValue": 0.7,
+    "ExportWeight": 3.11,
+    "ImportValue": 1.14,
+    "ImportWeight": 1,
+    "Name": "Madagascar"
+  },
+  {
+    "ExportValue": 1300.67,
+    "ExportWeight": 2552.48,
+    "ImportValue": 761.22,
+    "ImportWeight": 2532.7,
+    "Name": "Malaysia"
+  },
+  {
+    "ExportValue": 0.6,
+    "ExportWeight": 2.21,
+    "ImportValue": 0.42,
+    "ImportWeight": 0.2,
+    "Name": "Maldives"
+  },
+  {
+    "ExportValue": 22.16,
+    "ExportWeight": 40.9,
+    "ImportValue": 1.29,
+    "ImportWeight": 0.7,
+    "Name": "Malta"
+  },
+  {
+    "ExportValue": 6.03,
+    "ExportWeight": 12.96,
+    "ImportValue": 0.72,
+    "ImportWeight": 0.5,
+    "Name": "Mauritius"
+  },
+  {
+    "ExportValue": 4568.4,
+    "ExportWeight": 10357.62,
+    "ImportValue": 369.58,
+    "ImportWeight": 1171.7,
+    "Name": "Mexico"
+  },
+  {
+    "ExportValue": 1.42,
+    "ExportWeight": 4.51,
+    "ImportValue": 0.13,
+    "ImportWeight": 0.1,
+    "Name": "Montenegro"
+  },
+  {
+    "ExportValue": 48.53,
+    "ExportWeight": 106.35,
+    "ImportValue": 54.3,
+    "ImportWeight": 156.3,
+    "Name": "Morocco"
+  },
+  {
+    "ExportValue": 0.35,
+    "ExportWeight": 2.7,
+    "ImportValue": 0.1,
+    "ImportWeight": 0,
+    "Name": "Nepal"
+  },
+  {
+    "ExportValue": 3158.29,
+    "ExportWeight": 7342.78,
+    "ImportValue": 2465.72,
+    "ImportWeight": 6436.4,
+    "Name": "Netherlands"
+  },
+  {
+    "ExportValue": 200.86,
+    "ExportWeight": 609.1,
+    "ImportValue": 60.77,
+    "ImportWeight": 74.5,
+    "Name": "New Zealand"
+  },
+  {
+    "ExportValue": 0.03,
+    "ExportWeight": 0.67,
+    "ImportValue": 0.13,
+    "ImportWeight": 0.1,
+    "Name": "Niger"
+  },
+  {
+    "ExportValue": 24.76,
+    "ExportWeight": 51.75,
+    "ImportValue": 36.7,
+    "ImportWeight": 58.4,
+    "Name": "North Macedonia"
+  },
+  {
+    "ExportValue": 221.02,
+    "ExportWeight": 676.38,
+    "ImportValue": 19.94,
+    "ImportWeight": 77.9,
+    "Name": "Norway"
+  },
+  {
+    "ExportValue": 11.96,
+    "ExportWeight": 48.35,
+    "ImportValue": 10.87,
+    "ImportWeight": 9.2,
+    "Name": "Panama"
+  },
+  {
+    "ExportValue": 10.98,
+    "ExportWeight": 12.78,
+    "ImportValue": 13.98,
+    "ImportWeight": 35.2,
+    "Name": "Peru"
+  },
+  {
+    "ExportValue": 662.87,
+    "ExportWeight": 1521.6,
+    "ImportValue": 31.9,
+    "ImportWeight": 96.7,
+    "Name": "Philippines"
+  },
+  {
+    "ExportValue": 749.6,
+    "ExportWeight": 1493.4,
+    "ImportValue": 309.27,
+    "ImportWeight": 985.6,
+    "Name": "Poland"
+  },
+  {
+    "ExportValue": 299.76,
+    "ExportWeight": 704.49,
+    "ImportValue": 259.74,
+    "ImportWeight": 726.1,
+    "Name": "Portugal"
+  },
+  {
+    "ExportValue": 8.76,
+    "ExportWeight": 13.59,
+    "ImportValue": 47.34,
+    "ImportWeight": 16.4,
+    "Name": "Qatar"
+  },
+  {
+    "ExportValue": 147.39,
+    "ExportWeight": 353.22,
+    "ImportValue": 168.81,
+    "ImportWeight": 280.2,
+    "Name": "Romania"
+  },
+  {
+    "ExportValue": 0.18,
+    "ExportWeight": 0.91,
+    "ImportValue": 0.21,
+    "ImportWeight": 0,
+    "Name": "Saint Lucia"
+  },
+  {
+    "ExportValue": 0.19,
+    "ExportWeight": 0.79,
+    "ImportValue": 0.01,
+    "ImportWeight": 0,
+    "Name": "Saint Vincent and the Grenadines"
+  },
+  {
+    "ExportValue": 0.01,
+    "ExportWeight": 0.07,
+    "ImportValue": 0.12,
+    "ImportWeight": 0.1,
+    "Name": "Samoa"
+  },
+  {
+    "ExportValue": 3.84,
+    "ExportWeight": 7.77,
+    "ImportValue": 4,
+    "ImportWeight": 4.8,
+    "Name": "Senegal"
+  },
+  {
+    "ExportValue": 55.14,
+    "ExportWeight": 103.89,
+    "ImportValue": 14.98,
+    "ImportWeight": 38.2,
+    "Name": "Serbia"
+  },
+  {
+    "ExportValue": 541.16,
+    "ExportWeight": 1026.05,
+    "ImportValue": 84.03,
+    "ImportWeight": 146.6,
+    "Name": "Singapore"
+  },
+  {
+    "ExportValue": 238.52,
+    "ExportWeight": 315.29,
+    "ImportValue": 114.69,
+    "ImportWeight": 448.1,
+    "Name": "Slovakia"
+  },
+  {
+    "ExportValue": 270.58,
+    "ExportWeight": 646.72,
+    "ImportValue": 231.71,
+    "ImportWeight": 2471,
+    "Name": "Slovenia"
+  },
+  {
+    "ExportValue": 1221.98,
+    "ExportWeight": 2935.19,
+    "ImportValue": 660.36,
+    "ImportWeight": 1157.8,
+    "Name": "Spain"
+  },
+  {
+    "ExportValue": 7.27,
+    "ExportWeight": 14.07,
+    "ImportValue": 16.83,
+    "ImportWeight": 47.1,
+    "Name": "Sri Lanka"
+  },
+  {
+    "ExportValue": 0.55,
+    "ExportWeight": 1.93,
+    "ImportValue": 0,
+    "ImportWeight": 0,
+    "Name": "Suriname"
+  },
+  {
+    "ExportValue": 516.87,
+    "ExportWeight": 1371.74,
+    "ImportValue": 229.49,
+    "ImportWeight": 1783.8,
+    "Name": "Sweden"
+  },
+  {
+    "ExportValue": 438.52,
+    "ExportWeight": 1706.58,
+    "ImportValue": 123.29,
+    "ImportWeight": 641.3,
+    "Name": "Switzerland"
+  },
+  {
+    "ExportValue": 1837.58,
+    "ExportWeight": 2966.63,
+    "ImportValue": 146.33,
+    "ImportWeight": 507.1,
+    "Name": "Thailand"
+  },
+  {
+    "ExportValue": 4.4,
+    "ExportWeight": 9.43,
+    "ImportValue": 4.98,
+    "ImportWeight": 11,
+    "Name": "Togo"
+  },
+  {
+    "ExportValue": 5.84,
+    "ExportWeight": 17.18,
+    "ImportValue": 1.37,
+    "ImportWeight": 1.4,
+    "Name": "Trinidad and Tobago"
+  },
+  {
+    "ExportValue": 139.31,
+    "ExportWeight": 244.11,
+    "ImportValue": 14.36,
+    "ImportWeight": 29.6,
+    "Name": "Tunisia"
+  },
+  {
+    "ExportValue": 205.88,
+    "ExportWeight": 254.87,
+    "ImportValue": 349.12,
+    "ImportWeight": 883.9,
+    "Name": "Turkey"
+  },
+  {
+    "ExportValue": 17.39,
+    "ExportWeight": 37.83,
+    "ImportValue": 1.77,
+    "ImportWeight": 11.5,
+    "Name": "Uganda"
+  },
+  {
+    "ExportValue": 35.31,
+    "ExportWeight": 50.48,
+    "ImportValue": 33.34,
+    "ImportWeight": 54.1,
+    "Name": "Ukraine"
+  },
+  {
+    "ExportValue": 93.32,
+    "ExportWeight": 242.74,
+    "ImportValue": 77.42,
+    "ImportWeight": 82.5,
+    "Name": "United Arab Emirates"
+  },
+  {
+    "ExportValue": 3267.04,
+    "ExportWeight": 9192.62,
+    "ImportValue": 781.07,
+    "ImportWeight": 1209,
+    "Name": "United Kingdom of Great Britain and Northern Ireland"
+  },
+  {
+    "ExportValue": 12307.14,
+    "ExportWeight": 24580.17,
+    "ImportValue": 4801.16,
+    "ImportWeight": 8560.6,
+    "Name": "United States of America"
+  },
+  {
+    "ExportValue": 23.59,
+    "ExportWeight": 56.18,
+    "ImportValue": 7.52,
+    "ImportWeight": 14.3,
+    "Name": "Uruguay"
+  },
+  {
+    "ExportValue": 48.34,
+    "ExportWeight": 223.88,
+    "ImportValue": 21.05,
+    "ImportWeight": 37.9,
+    "Name": "Yemen"
+  },
+  {
+    "ExportValue": 1.47,
+    "ExportWeight": 4,
+    "ImportValue": 0.86,
+    "ImportWeight": 0.8,
+    "Name": "Zambia"
+  },
+  {
+    "ExportValue": 0.64,
+    "ExportWeight": 3.69,
+    "ImportValue": 8.06,
+    "ImportWeight": 7.9,
+    "Name": "Zimbabwe"
+  }
+]
