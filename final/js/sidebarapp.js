@@ -5,6 +5,12 @@ var data = $.ajax({
   dataType:'json'
 }).responseJSON;
 
+var datacountry = $.ajax({
+  url:"https://raw.githubusercontent.com/joyceyuqiliu/JOYCELIU/master/final/dataset/CountryEI_H.json",
+  async:false,
+  dataType:'json'
+}).responseJSON;
+
 
 // DISPLAY RESULT IN HIGHLIGHT SECTION 1
 myFunction(data);
@@ -127,11 +133,55 @@ function myFunction(arr){
       out3 = arr[21].BiggestExporter;
       out4 = arr[21].BiggestImporter;
     }}
+  $('.highlight').removeClass("hidden");
   $("#s1n").text(out1).fadeIn(1000);
   $("#s2n").text(out2).fadeIn(1000);
   $("#s3n").text(out3).fadeIn(1000);
   $("#s4n").text(out4).fadeIn(1000);
 
+}
+
+////For Searby by country
+function myFunction2(arr){
+  var out5 = "";
+  var out6 = "";
+  var out7 = "";
+  var out8 = "";
+  for ( i = 0; i < arr.length; i++){
+    if(document.getElementById("selection").value === arr[i].Name){
+      out5 = arr[i].ExportValue;
+      out6 = arr[i].ImportValue;
+      out7 = arr[i].ExportWeight;
+      out8 = arr[i].ImportWeight;
+    }else{}
+  $('.highlight2').removeClass("hidden");
+  $("#s5n").text(out5).fadeIn(1000);
+  $("#s6n").text(out6).fadeIn(1000);
+  $("#s7n").text(out7).fadeIn(1000);
+  $("#s8n").text(out8).fadeIn(1000);
+}}
+
+//display chart when click go
+function myChart(){
+  $('.chart').removeClass("hidden");
+}
+
+function mySwitch(){
+  $('.button').removeClass("hidden");
+}
+
+function mySwitch2(){
+  $('.button2').removeClass("hidden");
+}
+//DISPLAY country search panel when switch to country
+function myCountry(){
+  $(".highlight2,.search2,.button2").removeClass("hidden");
+  $(".highlight,.search,.button").addClass("hidden");
+}
+
+function myYear(){
+  $(".highlight2,.search2,.button2").addClass("hidden");
+  $(".highlight,.search,.button").removeClass("hidden");
 }
 
 
@@ -251,6 +301,7 @@ function myFunctionTable(){
   $("p").empty().hide();
   $("#tablecontain").hide();
 }
+$('.datalist').removeClass("hidden");
 $('table').tablesorter().trigger("update");
 $('table').tablesorter().trigger("appendCache");
 }

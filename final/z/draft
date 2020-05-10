@@ -1,0 +1,215 @@
+if(selection == "Albania"){
+    return ["Albania"].indexOf(item.Name) !== -1;}
+  }else if(selection == "Algeria"){
+      return ["Algeria"].indexOf(item.Name) !== -1;}
+    }else if(selection == "Andorra"){
+        return ["Andorra"].indexOf(item.Name) !== -1;}
+      }else if(selection == "Angola"){
+          return ["Angola"].indexOf(item.Name) !== -1;}
+        }else if(selection == "Argentina"){
+            return ["Argentina"].indexOf(item.Name) !== -1;}
+          }else if(selection == "Armenia"){
+              return ["Armenia"].indexOf(item.Name) !== -1;}
+            }else if(selection == "Zimbabwe"){
+                return ["Zimbabwe"].indexOf(item.Name) !== -1;}
+              }else if(selection == "Austria"){
+                  return ["Austria"].indexOf(item.Name) !== -1;}
+                }else if(selection == "Azerbaijan"){
+                    return ["Azerbaijan"].indexOf(item.Name) !== -1;}
+                  }else if(selection == "Bahamas"){
+                      return ["Bahamas"].indexOf(item.Name) !== -1;}
+                    }else if(selection == "Bangladesh"){
+                        return ["Bangladesh"].indexOf(item.Name) !== -1;}
+                      }else if(selection == "Belarus"){
+                          return ["Belarus"].indexOf(item.Name) !== -1;}
+                        }else if(selection == "Belgium"){
+                            return ["Belgium"].indexOf(item.Name) !== -1;}
+                          }else if(selection == "Belize"){
+                              return ["Belize"].indexOf(item.Name) !== -1;}
+                            }else if(selection == "Bhutan"){
+                                return ["Bhutan"].indexOf(item.Name) !== -1;}
+                              }else if(selection == "Bosnia and Herzegovina"){
+                                  return ["Bosnia and Herzegovina"].indexOf(item.Name) !== -1;}
+                                }else if(selection == "Botswana"){
+                                    return ["Botswana"].indexOf(item.Name) !== -1;}
+                                  }else if(selection == "Brazil"){
+                                      return ["Brazil"].indexOf(item.Name) !== -1;}
+                                    }else if(selection == "Bulgaria"){
+                                        return ["Bulgaria"].indexOf(item.Name) !== -1;}
+                                      }else if(selection == "Burkina Faso"){
+                                          return ["Burkina Faso"].indexOf(item.Name) !== -1;}
+                                        }else if(selection == "Burundi"){
+                                            return ["Burundi"].indexOf(item.Name) !== -1;}
+                                          }else if(selection == "Cabo Verde"){
+                                              return ["Cabo Verde"].indexOf(item.Name) !== -1;}
+                                            }else if(selection == "Cambodia"){
+                                                return ["Cambodia"].indexOf(item.Name) !== -1;}
+                                              }else if(selection == "Cameroon"){
+                                                  return ["Cameroon"].indexOf(item.Name) !== -1;}
+                                                }else if(selection == "Chile"){
+                                                    return ["Chile"].indexOf(item.Name) !== -1;}
+                                                  }else if(selection == "China"){
+                                                      return ["China"].indexOf(item.Name) !== -1;}
+                                                    }else if(selection == "Colombia"){
+                                                        return ["Colombia"].indexOf(item.Name) !== -1;}
+                                                      }elseif(selection == "Costa Rica"){
+                                                          return ["Costa Rica"].indexOf(item.Name) !== -1;}
+                                                        }else if(selection == "Croatia"){
+                                                            return ["Croatia"].indexOf(item.Name) !== -1;}
+                                                          }else if(selection == "Cuba"){
+                                                              return ["Cuba"].indexOf(item.Name) !== -1;}
+                                                            }else if(selection == "Cyprus"){
+                                                                return ["Cyprus"].indexOf(item.Name) !== -1;}
+                                                              }else if(selection == "Denmark"){
+                                                                  return ["Denmark"].indexOf(item.Name) !== -1;}
+                                                                }else if(selection == "Dominica"){
+                                                                    return ["Dominica"].indexOf(item.Name) !== -1;}
+                                                                  }else if(selection == "Ecuador"){
+                                                                      return ["Ecuador"].indexOf(item.Name) !== -1;}
+                                                                    }else if(selection == "Egypt"){
+                                                                        return ["Egypt"].indexOf(item.Name) !== -1;}
+                                                                      }else if(selection == "Estonia"){
+                                                                          return ["Estonia"].indexOf(item.Name) !== -1;}
+                                                                        }elseif(selection == "Finland"){
+                                                                            return ["Finland"].indexOf(item.Name) !== -1;}
+                                                                          }else if(selection == "France"){
+                                                                              return ["France"].indexOf(item.Name) !== -1;}
+                                                                            }else if(selection == "French Polynesia"){
+                                                                                return ["French Polynesia"].indexOf(item.Name) !== -1;}
+                                                                              }else if(selection == "Georgia"){
+                                                                                  return ["Georgia"].indexOf(item.Name) !== -1;}
+                                                                                }else if(selection == "Germany"){
+                                                                                    return ["Germany"].indexOf(item.Name) !== -1;}
+                                                                                  }else if(selection == "Greece"){
+                                                                                      return ["Greece"].indexOf(item.Name) !== -1;}
+                                                                                    }else if(selection == "Honduras"){
+                                                                                        return ["Honduras"].indexOf(item.Name) !== -1;}
+                                                                                      }else if(selection == "Hungary"){
+                                                                                          return ["Hungary"].indexOf(item.Name) !== -1;}
+                                                                                        }else if(selection == "Iceland"){
+                                                                                            return ["Iceland"].indexOf(item.Name) !== -1;}
+                                                                                          }elseif(selection == "Indonesia"){
+                                                                                              return ["Indonesia"].indexOf(item.Name) !== -1;}
+                                                                                            }else if(selection == "Iraq"){
+                                                                                                return ["Iraq"].indexOf(item.Name) !== -1;}
+                                                                                              }else if(selection == "Ireland"){
+                                                                                                  return ["Ireland"].indexOf(item.Name) !== -1;}
+                                                                                                }else if(selection == "Israel"){
+                                                                                                    return ["Israel"].indexOf(item.Name) !== -1;}
+                                                                                                  }else if(selection == "Italy"){
+                                                                                                      return ["Italy"].indexOf(item.Name) !== -1;}
+                                                                                                    }else if(selection == "Jamaica"){
+                                                                                                        return ["Jamaica"].indexOf(item.Name) !== -1;}
+                                                                                                      }else if(selection == "Japan"){
+                                                                                                          return ["Japan"].indexOf(item.Name) !== -1;}
+                                                                                                        }else if(selection == "Jordan"){
+                                                                                                            return ["Jordan"].indexOf(item.Name) !== -1;}
+                                                                                                          }else if(selection == "Kazakhstan"){
+                                                                                                              return ["Kazakhstan"].indexOf(item.Name) !== -1;}
+                                                                                                            }elseif(selection == "Kuwait"){
+                                                                                                                return ["Kuwait"].indexOf(item.Name) !== -1;}
+                                                                                                              }else if(selection == "Kyrgyzstan"){
+                                                                                                                  return ["Kyrgyzstan"].indexOf(item.Name) !== -1;}
+                                                                                                                }else if(selection == "Latvia"){
+                                                                                                                    return ["Latvia"].indexOf(item.Name) !== -1;}
+                                                                                                                  }else if(selection == "Lebanon"){
+                                                                                                                      return ["Lebanon"].indexOf(item.Name) !== -1;}
+                                                                                                                    }else if(selection == "Lithuania"){
+                                                                                                                        return ["Lithuania"].indexOf(item.Name) !== -1;}
+                                                                                                                      }else if(selection == "Luxembourg"){
+                                                                                                                          return ["Luxembourg"].indexOf(item.Name) !== -1;}
+                                                                                                                        }else if(selection == "Madagascar"){
+                                                                                                                            return ["Madagascar"].indexOf(item.Name) !== -1;}
+                                                                                                                          }else if(selection == "Malaysia"){
+                                                                                                                              return ["Malaysia"].indexOf(item.Name) !== -1;}
+                                                                                                                            }else if(selection == "Maldives"){
+                                                                                                                                return ["Maldives"].indexOf(item.Name) !== -1;}
+                                                                                                                              }elseif(selection == "Malta"){
+                                                                                                                                  return ["Malta"].indexOf(item.Name) !== -1;}
+                                                                                                                                }else if(selection == "Mauritius"){
+                                                                                                                                    return ["Mauritius"].indexOf(item.Name) !== -1;}
+                                                                                                                                  }else if(selection == "Mexico"){
+                                                                                                                                      return ["Mexico"].indexOf(item.Name) !== -1;}
+                                                                                                                                    }else if(selection == "Montenegro"){
+                                                                                                                                        return ["Montenegro"].indexOf(item.Name) !== -1;}
+                                                                                                                                      }else if(selection == "Morocco"){
+                                                                                                                                          return ["Morocco"].indexOf(item.Name) !== -1;}
+                                                                                                                                        }else if(selection == "Nepal"){
+                                                                                                                                            return ["Nepal"].indexOf(item.Name) !== -1;}
+                                                                                                                                          }else if(selection == "Netherlands"){
+                                                                                                                                              return ["Netherlands"].indexOf(item.Name) !== -1;}
+                                                                                                                                            }else if(selection == "New Zealand"){
+                                                                                                                                                return ["New Zealand"].indexOf(item.Name) !== -1;}
+                                                                                                                                              }else if(selection == "Niger"){
+                                                                                                                                                  return ["Niger"].indexOf(item.Name) !== -1;}
+                                                                                                                                                }elseif(selection == "North Macedonia"){
+                                                                                                                                                    return ["North Macedonia"].indexOf(item.Name) !== -1;}
+                                                                                                                                                  }else if(selection == "Norway"){
+                                                                                                                                                      return ["Norway"].indexOf(item.Name) !== -1;}
+                                                                                                                                                    }else if(selection == "Panama"){
+                                                                                                                                                        return ["Panama"].indexOf(item.Name) !== -1;}
+                                                                                                                                                      }else if(selection == "Peru"){
+                                                                                                                                                          return ["Peru"].indexOf(item.Name) !== -1;}
+                                                                                                                                                        }else if(selection == "Philippines"){
+                                                                                                                                                            return ["Philippines"].indexOf(item.Name) !== -1;}
+                                                                                                                                                          }else if(selection == "Poland"){
+                                                                                                                                                              return ["Poland"].indexOf(item.Name) !== -1;}
+                                                                                                                                                            }else if(selection == "Portugal"){
+                                                                                                                                                                return ["Portugal"].indexOf(item.Name) !== -1;}
+                                                                                                                                                              }else if(selection == "Qatar"){
+                                                                                                                                                                  return ["Qatar"].indexOf(item.Name) !== -1;}
+                                                                                                                                                                }else if(selection == "Romania"){
+                                                                                                                                                                    return ["Romania"].indexOf(item.Name) !== -1;}
+                                                                                                                                                                  }elseif(selection == "Saint Lucia"){
+                                                                                                                                                                      return ["Saint Lucia"].indexOf(item.Name) !== -1;}
+                                                                                                                                                                    }else if(selection == "Saint Vincent and the Grenadines"){
+                                                                                                                                                                        return ["Saint Vincent and the Grenadines"].indexOf(item.Name) !== -1;}
+                                                                                                                                                                      }else if(selection == "Samoa"){
+                                                                                                                                                                          return ["Samoa"].indexOf(item.Name) !== -1;}
+                                                                                                                                                                        }else if(selection == "Senegal"){
+                                                                                                                                                                            return ["Senegal"].indexOf(item.Name) !== -1;}
+                                                                                                                                                                          }else if(selection == "Serbia"){
+                                                                                                                                                                              return ["Serbia"].indexOf(item.Name) !== -1;}
+                                                                                                                                                                            }else if(selection == "Singapore"){
+                                                                                                                                                                                return ["Singapore"].indexOf(item.Name) !== -1;}
+                                                                                                                                                                              }else if(selection == "Slovakia"){
+                                                                                                                                                                                  return ["Slovakia"].indexOf(item.Name) !== -1;}
+                                                                                                                                                                                }else if(selection == "Slovenia"){
+                                                                                                                                                                                    return ["Slovenia"].indexOf(item.Name) !== -1;}
+                                                                                                                                                                                  }else if(selection == "Spain"){
+                                                                                                                                                                                      return ["Spain"].indexOf(item.Name) !== -1;}
+                                                                                                                                                                                    }elseif(selection == "Sri Lanka"){
+                                                                                                                                                                                        return ["Sri Lanka"].indexOf(item.Name) !== -1;}
+                                                                                                                                                                                      }else if(selection == "Suriname"){
+                                                                                                                                                                                          return ["Suriname"].indexOf(item.Name) !== -1;}
+                                                                                                                                                                                        }else if(selection == "Sweden"){
+                                                                                                                                                                                            return ["Sweden"].indexOf(item.Name) !== -1;}
+                                                                                                                                                                                          }else if(selection == "Switzerland"){
+                                                                                                                                                                                              return ["Switzerland"].indexOf(item.Name) !== -1;}
+                                                                                                                                                                                            }else if(selection == "Thailand"){
+                                                                                                                                                                                                return ["Thailand"].indexOf(item.Name) !== -1;}
+                                                                                                                                                                                              }else if(selection == "Togo"){
+                                                                                                                                                                                                  return ["Togo"].indexOf(item.Name) !== -1;}
+                                                                                                                                                                                                }else if(selection == "Trinidad and Tobago"){
+                                                                                                                                                                                                    return ["Trinidad and Tobago"].indexOf(item.Name) !== -1;}
+                                                                                                                                                                                                  }else if(selection == "Tunisia"){
+                                                                                                                                                                                                      return ["Tunisia"].indexOf(item.Name) !== -1;}
+                                                                                                                                                                                                    }else if(selection == "Turkey"){
+                                                                                                                                                                                                        return ["Turkey"].indexOf(item.Name) !== -1;}
+                                                                                                                                                                                                      }elseif(selection == "Uganda"){
+                                                                                                                                                                                                          return ["Uganda"].indexOf(item.Name) !== -1;}
+                                                                                                                                                                                                        }else if(selection == "Ukraine"){
+                                                                                                                                                                                                            return ["Ukraine"].indexOf(item.Name) !== -1;}
+                                                                                                                                                                                                          }else if(selection == "United Arab Emirates"){
+                                                                                                                                                                                                              return ["United Arab Emirates"].indexOf(item.Name) !== -1;}
+                                                                                                                                                                                                            }else if(selection == "United Kingdom of Great Britain and Northern Ireland"){
+                                                                                                                                                                                                                return ["United Kingdom of Great Britain and Northern Ireland"].indexOf(item.Name) !== -1;}
+                                                                                                                                                                                                              }else if(selection == "United States of America"){
+                                                                                                                                                                                                                  return ["United States of America"].indexOf(item.Name) !== -1;}
+                                                                                                                                                                                                                }else if(selection == "Uruguay"){
+                                                                                                                                                                                                                    return ["Uruguay"].indexOf(item.Name) !== -1;}
+                                                                                                                                                                                                                  }else if(selection == "Yemen"){
+                                                                                                                                                                                                                      return ["Yemen"].indexOf(item.Name) !== -1;}
+                                                                                                                                                                                                                    }else if(selection == "Zambia"){
+                                                                                                                                                                                                                        return ["Zambia"].indexOf(item.Name) !== -1;}
+                                                                                                                                                                                                                      }else {}

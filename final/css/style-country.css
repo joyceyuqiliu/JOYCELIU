@@ -227,7 +227,7 @@ img {
     position: absolute;
     width: 80px;
     height: 44px;
-    left: 130px;
+    left: 110px;
     top: 34px;
     font-size:12px;
     font-weight:100;
@@ -257,9 +257,9 @@ font-family: 'Roboto', sans-serif;
 .datalist{
 position: absolute;
 width: 400px;
-height: 190px;
+height: 300px;
 left: 22px;
-top: 533px;
+top: 355px;
 font-family: 'Roboto', sans-serif;
 color: #E5E5E5;
 font-size: 10px;
@@ -267,7 +267,7 @@ font-size: 10px;
 
 .place-table{
   position: absolute;
-  max-height: 100px;
+  max-height: 260px;
   top: 40px;
   overflow: scroll;
 }
@@ -275,7 +275,7 @@ font-size: 10px;
 
 p{
   position: absolute;
-  max-height: 150px;
+  max-height: 260px;
   top: 40px;
   overflow: scroll;
 }
