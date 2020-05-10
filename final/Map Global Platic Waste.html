@@ -63,7 +63,7 @@
             </svg></button-->
         </div>
         <div class="button">
-          <button class = "switch" onclick="myCountry()">? Total 1996-2017 of Specfic Country</button>
+          <button class = "switch" onclick="myCountry()"> Search Country Data Across Years</button>
         </div>
 
 
@@ -81,21 +81,27 @@
           </div>
           <div class = "section-3">
             <div class = "section-3 hshead">#1 Exporter
-              <svg class="bi bi-info-circle" width="2em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                <path fill-rule="evenodd" d="M8 15A7 7 0 108 1a7 7 0 000 14zm0 1A8 8 0 108 0a8 8 0 000 16z" clip-rule="evenodd"/>
-                <path d="M8.93 6.588l-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588z"/>
-                <circle cx="8" cy="4.5" r="1"/>
-              </svg>
+
+                <div class="popup" onclick="myInfo()">
+                  <svg class="bi bi-info-circle" width="2em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" d="M8 15A7 7 0 108 1a7 7 0 000 14zm0 1A8 8 0 108 0a8 8 0 000 16z" clip-rule="evenodd"/>
+                    <path d="M8.93 6.588l-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588z"/>
+                    <circle cx="8" cy="4.5" r="1"/></svg>
+                <span class="popuptext" id="myPopup">Based on Value resported by exporters in FOB method</span>
+               </div>
+
             </div>
             <div class = "section-3 name"><span id = "s3n"></span></div>
           </div>
           <div class = "section-4">
             <div class = "section-4 hshead">#1 Importer
-              <svg class="bi bi-info-circle" width="2em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                <path fill-rule="evenodd" d="M8 15A7 7 0 108 1a7 7 0 000 14zm0 1A8 8 0 108 0a8 8 0 000 16z" clip-rule="evenodd"/>
-                <path d="M8.93 6.588l-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588z"/>
-                <circle cx="8" cy="4.5" r="1"/>
-              </svg>
+              <div class="popup" onclick="myInfo1()">
+                <svg class="bi bi-info-circle" width="2em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" d="M8 15A7 7 0 108 1a7 7 0 000 14zm0 1A8 8 0 108 0a8 8 0 000 16z" clip-rule="evenodd"/>
+                  <path d="M8.93 6.588l-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588z"/>
+                  <circle cx="8" cy="4.5" r="1"/></svg>
+              <span class="popuptext" id="myPopup1">Based on Value reported by importers in CIF method</span>
+             </div>
             </div>
             <div class = "section-4 name"><span id = "s4n"></span></div>
           </div>
@@ -23446,20 +23452,20 @@
           </div>
         </div>
 
+
       </div><!--sbbody closing-->
-
-
+      <div id="claim">By Joyce Y. Liu, 2020. Source: UN Comtrade</div>
       </div> <!--sidebar closing-->
 
     <div id = "map">
       <!--nav id="menu"></nav-->
       <div id= "worldmap"></div>
       <div class = "maphead">
-        <div class="info-container">
+        <div class="info-container" onclick="window.location.href = 'https://drive.google.com/open?id=1j_6r5tymT-vHeHMvFegQtoFvxkdj5KUj'">
           <svg class="bi bi-lightning" color="#E5E5E5" width="2em" height="2em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
             <path fill-rule="evenodd" d="M11.251.068a.5.5 0 01.227.58L9.677 6.5H13a.5.5 0 01.364.843l-8 8.5a.5.5 0 01-.842-.49L6.323 9.5H3a.5.5 0 01-.364-.843l8-8.5a.5.5 0 01.615-.09zM4.157 8.5H7a.5.5 0 01.478.647L6.11 13.59l5.732-6.09H9a.5.5 0 01-.478-.647L9.89 2.41 4.157 8.5z" clip-rule="evenodd"/>
           </svg>
-          Insight
+          The Future?
        </div>
       </div>
       <!---div class="divbutton" id = "development"> Development Status

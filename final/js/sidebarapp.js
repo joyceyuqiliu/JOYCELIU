@@ -317,6 +317,14 @@ function myFunctionTableE(){
   $("p.pE").hide();}
 
 
+  function myInfo() {
+    var popup = document.getElementById("myPopup");
+  popup.classList.toggle("show");}
+
+  function myInfo1() {
+    var popup = document.getElementById("myPopup1");
+  popup.classList.toggle("show");}
+
 
 
 //  $("#E-1996").appendTo("p");}
